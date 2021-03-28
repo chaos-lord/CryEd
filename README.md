@@ -1,6 +1,6 @@
 # The gen 1 and 2 Cry Library with CryEd.
 
-This repo is intended to both act as a library from which gen 1 or 2 hacks can take from freely (with credit). To assist with this the repo also contains CryEd, a piece of homebrew made by DevEd2 that allows various cry settings to be easilly edited and tested in real time. In turn if new base cries were created they could easilly be added to CryEd to be used as a base for other cries.
+This repo is intended to both act as a library from which gen 1 or 2 hacks can take from freely (with credit). To assist with this the repo also contains CryEd, a piece of homebrew made by DevEd that allows various cry settings to be easilly edited and tested in real time. In turn if new base cries were created they could easilly be added to CryEd to be used as a base for other cries.
 
 All cries here are free to include in your own hack so long as thier creators are credited, and we encourage you to add any new cries or improvments you make to the library in turn.
 
