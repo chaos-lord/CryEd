@@ -1,4 +1,5 @@
-DevEd2 for making CryEd.
+DevEd for making CryEd.
+Pret and everyone who contributed to pokecrystal, as CryEds audio engine was taken from pokecrystal.
 Chaos_Lord2 for orgainising the library and improving Combusken' cry.
 Ax6 for making the linux makefile.
 
