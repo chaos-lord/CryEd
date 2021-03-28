@@ -1,3 +1,40 @@
 DevEd2 for making CryEd.
 Chaos_Lord2 for orgainising the library and improving Combusken' cry.
 Ax6 for making the linux makefile.
+
+SourApple for making the following cries:
+Blaziken
+Marshtomp
+Ludicolo
+Pelipper
+Surskit
+Masquerain
+Whismur
+Loudred
+Exploud
+Makuhita
+Hariyama
+Azurill
+Skitty
+Delcatty
+Sableye
+
+FrostedGeulleisia for making the following cries:
+Swablu
+Absol
+Glaceon
+
+Celadonk for making the following cries:
+Treeko
+Grovyle
+Sceptile
+Torchic
+Mudkip
+Swampert
+Poochyena
+Zigzagoon
+Linoone
+Lombre
+
+Monstarules for making the following cries:
+Bibarel
