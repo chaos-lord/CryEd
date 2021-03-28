@@ -1,0 +1,3 @@
+DevEd2 for making CryEd.
+Chaos_Lord2 for orgainising the library and improving Combusken' cry.
+Ax6 for making the linux makefile.
