@@ -36,7 +36,7 @@ When you add something, Please add it to credits.txt, and when you use these cry
 
 When you have added your new cry, it would be very nice if you submitted it to the library. To do this create a fork of the library, commit your new cry(s) to the fork, then submit a pull request containing your changes to the library master for approval. Improvments are submitted in the exact same way. 
 
-When a cry is added it will be rated from 1 to 5 stars (*'s) representing the percieved quality at emulating the real cry. The rating scale is below.
+Once ratings have been sorted out, when a cry is added it will be rated from 1 to 5 stars (*'s) representing the percieved quality at emulating the real cry. The rating scale is below.
 
 \***** is a perfect cry matching a vanilla cry almost exactly, given the limits of the hardware
 
