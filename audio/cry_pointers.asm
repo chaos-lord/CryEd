@@ -68,3 +68,4 @@ Cries: ; e91b0
 	dba Cry_Dunsparce
 	dba Cry_Donphan
 	dba	Cry_Unused
+	dba Cry_Gastrodon
