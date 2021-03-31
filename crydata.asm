@@ -269,14 +269,14 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,   $000,  $150 ; MIGHTYENA
 	mon_cry CRY_WEEDLE,      $80b,  $081 ; ZIGZAGOON
 	mon_cry CRY_WEEDLE,      $609,  $1b1 ; LINOONE
-	mon_cry CRY_SUNFLORA,    $148,  $000 ; LOTAD - PLACEHOLDER
+	mon_cry CRY_SPINARAK,    $ff3,  $060 ; LOTAD
 	mon_cry CRY_FEAROW,      $680,  $090 ; LOMBRE
 	mon_cry CRY_KRABBY,      $0d0,  $0fa ; LUDICOLO
 	mon_cry CRY_SPEAROW,     $06f,  $080 ; TAILLOW
 	mon_cry CRY_SPEAROW,     $020,  $090 ; SWELLOW
-	mon_cry CRY_FEAROW,      $000,  $100 ; WINGULL - PLACEHOLDER
+	mon_cry CRY_SUNFLORA,    $d73,  $100 ; WINGULL
 	mon_cry CRY_MAGCARGO,    $f30,  $100 ; PELIPPER
-	mon_cry CRY_NIDORAN_F,   $000,  $100 ; RALTS - PLACEHOLDER
+	mon_cry CRY_GLIGAR,      $ffc,  $110 ; RALTS
 	mon_cry CRY_VILEPLUME,   $008,  $100 ; KIRLIA
 	mon_cry CRY_VILEPLUME,   $f22,  $163 ; GARDEVOIR
 	mon_cry CRY_GROWLITHE,   $1bd,  $0f0 ; SURSKIT
@@ -293,24 +293,24 @@ PokemonCries::
 	mon_cry CRY_GROWLITHE,   $080,  $0b0 ; ARON
 	mon_cry CRY_WEEDLE,      $040,  $090 ; LAIRON
 	mon_cry CRY_SLOWKING,    $207,  $1b2 ; AGGRON
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; ELECTRIKE - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; MANECTRIC - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; ROSELIA - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; WAILMER - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; WAILORD - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; TRAPINCH - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; VIBRAVA - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; FLYGON - PLACEHOLDER
+	mon_cry CRY_PICHU,       $f17,  $270 ; ELECTRIKE
+	mon_cry CRY_UNUSED,      $f27,  $080 ; MANECTRIC
+	mon_cry CRY_AIPOM,       $041,  $0ae ; ROSELIA
+	mon_cry CRY_TEDDIURSA,   $58e,  $0c8 ; WAILMER
+	mon_cry CRY_TEDDIURSA,   $5bf,  $188 ; WAILORD
+	mon_cry CRY_CYNDAQUIL,   $2f4,  $129 ; TRAPINCH
+	mon_cry CRY_SLUGMA,      $2c2,  $0f3 ; VIBRAVA
+	mon_cry CRY_KRABBY,      $cda,  $132 ; FLYGON
 	mon_cry CRY_TOGETIC,     $010,  $017 ; SWABLU
-	mon_cry CRY_NIDORAN_M,   $045,  $155 ; ALTARIA - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; LILEEP - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; CRADILY - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; FEEBAS - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; MILOTIC - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; DUSKULL - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; DUSCLOPS - PLACEHOLDER
-	mon_cry CRY_PSYDUCK,     $095,  $077 ; ABSOL - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; SNORUNT - PLACEHOLDER
+	mon_cry CRY_NIDORAN_M,   $045,  $155 ; ALTARIA
+	mon_cry CRY_RATTATA,     $1fd,  $170 ; LILEEP
+	mon_cry CRY_VILEPLUME,   $eea,  $200 ; CRADILY
+	mon_cry CRY_GRIMER,      $04d,  $0f0 ; FEEBAS
+	mon_cry CRY_SQUIRTLE,    $084,  $23c ; MILOTIC
+	mon_cry CRY_CYNDAQUIL,   $10e,  $050 ; DUSKULL
+	mon_cry CRY_NATU,        $a5e,  $160 ; DUSCLOPS
+	mon_cry CRY_SPEAROW,     $795,  $0A7 ; ABSOL
+	mon_cry CRY_PSYDUCK,     $26f,  $0dd ; SNORUNT
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; SPHEAL - PLACEHOLDER
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; SEALEO - PLACEHOLDER
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; WALREIN - PLACEHOLDER
@@ -357,7 +357,7 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; TOXICROAK - PLACEHOLDER
 	mon_cry CRY_VENONAT,     $03d,  $160 ; LEAFEON
 	mon_cry CRY_TYPHLOSION,  $014,  $118 ; GLACEON
-	mon_cry CRY_GIRAFARIG,   $073,  $240 ; PORYGON_Z
+	mon_cry CRY_SEEL,        $212,  $270 ; PORYGON_Z
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; DUSKNOIR - PLACEHOLDER
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; FROSLASS - PLACEHOLDER
 	mon_cry CRY_NIDORAN_M,   $000,  $100 ; DARKRAI - PLACEHOLDER

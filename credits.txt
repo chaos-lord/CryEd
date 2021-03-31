@@ -19,6 +19,27 @@ Azurill
 Skitty
 Delcatty
 Sableye
+Lotad
+Wingull
+Ralts
+Electrike
+Manectric
+Roselia
+Wailmer
+Wailord
+Trapinch
+Vibrava
+Flygon
+Altaria
+Lileep
+Cradilly
+Feebas
+Milotic
+Duskull
+Dusclops
+Absol
+Snorunt
+Porygon-Z
 
 FrostedGeulleisia for making the following cries:
 Swablu
