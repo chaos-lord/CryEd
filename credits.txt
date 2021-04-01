@@ -40,6 +40,17 @@ Dusclops
 Absol
 Snorunt
 Porygon-Z
+Spheal
+Sealeo
+Walrein
+Bagon
+Shelgon
+Salamence
+Beldum
+Metang
+Latios
+Kyogre
+Groudon
 
 FrostedGeulleisia for making the following cries:
 Swablu
