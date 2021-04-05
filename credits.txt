@@ -51,6 +51,15 @@ Metang
 Latios
 Kyogre
 Groudon
+Treecko
+Grovyle
+Sceptile
+Turtwig
+Grotle
+Torterra
+Chimchar
+Monferno
+Infernape
 
 FrostedGeulleisia for making the following cries:
 Swablu
@@ -58,9 +67,6 @@ Absol
 Glaceon
 
 Celadonk for making the following cries:
-Treeko
-Grovyle
-Sceptile
 Torchic
 Mudkip
 Swampert
@@ -83,3 +89,9 @@ Aggron
 MyRattata for making the following cries
 Gastrodon, including discovering the out of bounds base cry
 Metagross 
+
+walshyb for making the following cries
+Piplup
+Shellos
+Shinx
+Litwick
