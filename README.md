@@ -6,7 +6,7 @@ All cries here are free to include in your own hack so long as thier creators ar
 
 # The anatomy of a cry:
 
-Cries have 3 parts, a base cry, a ppitch setting and a length. Base cries are the basic sound which the cry is based off, the pitch, as the name suggests, adjusts the pitch of the cry to be higher or lower while the lenth is how fast the cry plays, higher is longer, but unlike typical audio stretching does not adjust the pitch, instead becomming crackly at extreme lengths as the notes are played further apart. (TODO: write better cry guide)
+Cries have 3 parts, a base cry, a pitch setting and a length. Base cries are the basic sound which the cry is based off, the pitch, as the name suggests, adjusts the pitch of the cry to be higher or lower while the lenth is how fast the cry plays, higher is longer, but unlike typical audio stretching does not adjust the pitch, instead becomming crackly at extreme lengths as the notes are played further apart. (TODO: write better cry guide)
 
 # How to use CryEd:
 
