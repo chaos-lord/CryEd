@@ -76,3 +76,4 @@
 
 ; Gen 3+
 	const CRY_GASTRODON      ; 45
+	const CRY_GOOMY          ; 46

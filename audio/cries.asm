@@ -2311,11 +2311,11 @@ Cry_Rattata_Ch8: ; f3fa9
 	endchannel
 ; f3fb6
 
-Cry_Gastrodon: 
+Cry_Gastrodon:
 	musicheader 3, 5, Cry_Gastrodon_Ch5
 	musicheader 1, 6, Cry_Gastrodon_Ch6
 	musicheader 1, 8, Cry_Gastrodon_Ch8
-	
+
 Cry_Gastrodon_Ch5:
 Cry_Gastrodon_branch:
 	sound __,  3, $f7, $0601
@@ -2323,19 +2323,65 @@ Cry_Gastrodon_branch:
 	loopchannel 8, Cry_Gastrodon_branch
 	endchannel
 
-Cry_Gastrodon_Ch6: 
+Cry_Gastrodon_Ch6:
 	sound __,  2, $f7, $ffff
 	sound __,  3, $f7, $0602
 	sound __,  3, $f7, $0702
 	loopchannel 8, Cry_Gastrodon_branch
 	endchannel ;is this neccersary? the above loop command should cause it to jump to Ch5.
 
-Cry_Gastrodon_Ch8: 
-Cry_Gastrodon_Ch8_branch: 
+Cry_Gastrodon_Ch8:
+Cry_Gastrodon_Ch8_branch:
 	noise __,  2, $f8, $41
 	noise __,  3, $9c, $24
 	noise __,  1, $0, $0
 	noise __,  4, $59, $16
 	noise __,  3, $0, $0
 	loopchannel 3, Cry_Gastrodon_Ch8_branch
+	endchannel
+
+Cry_Goomy:
+	musicheader 3, 5, Cry_Goomy_Ch5
+	musicheader 1, 6, Cry_Goomy_Ch6
+	musicheader 1, 8, Cry_Goomy_Ch8
+
+Cry_Goomy_Ch5:
+	sound_duty 3, 3, 0, 0
+	sound __, 9, $f2, 1150
+	sound __, 1, $00, 1
+	sound __, 9, $f2, 1300
+	sound __, 1, $00, 1
+	sound __, 9, $f2, 1350
+	sound __, 1, $00, 1
+	sound_duty 3, 0, 3, 0
+	sound __, 6, $83, 1570
+	endchannel
+
+Cry_Goomy_Ch6:
+	sound_duty 1, 3, 0, 2
+	sound __, 10, $57, 1300
+	sound __, 1, $07, 300
+	sound __, 10, $57, 1500
+	sound __, 1, $07, 300
+	sound __, 10, $57, 1600
+	sound __, 1, $07, 300
+	sound __, 16, $d5, 1646
+	sound __, 1, $d5, 1646
+	sound_duty 3, 2, 0, 0
+	sound __, 3, $76, 1500
+	sound __, 1, $00, 1
+	sound __, 3, $76, 1400
+	sound __, 1, $00, 1
+	sound __, 3, $74, 1300
+	endchannel
+
+Cry_Goomy_Ch8:
+	noise __, 2, $01, $00
+Cry_Goomy_Ch8_branch:
+	noise __, 4, $13, $5c
+	noise __, 6, $00, $00
+	loopchannel 3, Cry_Goomy_Ch8_branch
+	noise __, 10, $47, $6c
+	noise __, 10, $47, $9c
+	noise __, 10, $37, $6c
 	endchannel
