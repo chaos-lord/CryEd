@@ -1,7 +1,42 @@
 DevEd for making CryEd.
 Pret and everyone who contributed to pokecrystal, as CryEds audio engine was taken from pokecrystal.
 Chaos_Lord2 for orgainising the library and improving Combusken' cry.
-Ax6 for making the linux makefile.
+
+Ax6 for making the linux makefile and the following cries.
+Lopunny
+Skuntank
+Toxicroak
+Dusknoir
+Froslass
+Simisage
+Bronzor
+Bronzong
+Tynamo
+Eelectrik
+Eelektross
+Floatzel
+Croagunk
+Buneary (including base cry)
+Buizel
+Roserade
+Lampent
+Chandelure
+Litwick
+Amaura (including base cry)
+Cutiefly
+Ribombee
+Pansage
+Burmy
+Mothim
+Stunky
+Darkrai
+Luxio
+Luxray
+Budew
+Bonsly
+Chatot (including base cry)
+Empoleon
+Prinplup
 
 SourApple for making the following cries:
 Blaziken
@@ -94,4 +129,3 @@ walshyb for making the following cries
 Piplup
 Shellos
 Shinx
-Litwick

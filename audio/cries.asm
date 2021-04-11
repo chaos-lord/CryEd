@@ -2339,3 +2339,95 @@ Cry_Gastrodon_Ch8_branch:
 	noise __,  3, $0, $0
 	loopchannel 3, Cry_Gastrodon_Ch8_branch
 	endchannel
+	
+Cry_Chatot:
+	musicheader 3, 5, Cry_Chatot_Ch5
+	musicheader 1, 6, Cry_Chatot_Ch6
+	musicheader 1, 8, Cry_Chatot_Ch8
+
+Cry_Chatot_Ch5:
+	sound_duty 3, 2, 1, 0
+	sound __,  5, $d3, $0740
+	sound __, 10, $c6, $0720
+	sound __,  1, $00, $0000
+	sound __, 16, $e5, $0760
+	endchannel
+
+Cry_Chatot_Ch6:
+	sound_duty 1, 0, 0, 2
+	sound __,  2, $c3, $0701
+	sound __,  3, $c3, $0708
+	sound __, 10, $a6, $06f1
+	sound __,  1, $00, $0000
+	sound __, 16, $d7, $0741
+Cry_Chatot_Ch8:
+	endchannel
+	
+Cry_Amaura:
+	musicheader 2, 5, Cry_Amaura_Ch5
+	musicheader 1, 6, Cry_Amaura_Ch6
+
+Cry_Amaura_Ch5:
+	dutycycle 1
+	sound __,  5, $68, $075c
+	sound __,  3, $e8, $0764
+	sound __,  3, $e8, $076b
+	sound __,  3, $e8, $0770
+	sound __,  4, $f4, $076b
+	sound __,  5, $79, $075d
+	sound __,  7, $e8, $0782
+	sound __,  7, $e8, $0780
+	sound __,  7, $f1, $077e
+	endchannel
+
+Cry_Amaura_Ch6:
+	sound_duty 1, 0, 0, 1
+	sound __,  5, $68, $0758
+	sound __,  3, $e8, $0760
+	sound __,  3, $e8, $0767
+	sound __,  3, $e8, $076c
+	sound __,  4, $f4, $0767
+	sound __,  5, $79, $0759
+	sound __,  7, $e8, $077e
+	sound __,  7, $e8, $077c
+	sound __,  7, $f1, $077a
+	endchannel
+
+Cry_Buneary:
+	musicheader 2, 5, Cry_Buneary_Ch5
+	musicheader 1, 6, Cry_Buneary_Ch6
+
+Cry_Buneary_Ch5:
+	sound_duty 0, 0, 2, 2
+.loop
+	sound __,  4, $f2, $0740
+	sound __,  3, $c4, $073c
+	sound __,  2, $a4, $0737
+	sound __,  2, $84, $0732
+	sound __,  2, $54, $072d
+	loopchannel 3, .loop
+	sound_duty 0, 0, 1, 1
+	sound __, 12, $d8, $0720
+	sound __, 16, $d8, $0770
+	sound __,  1, $e8, $0765
+	sound __,  1, $e8, $075a
+	sound __, 16, $e5, $0750
+	endchannel
+
+Cry_Buneary_Ch6:
+	sound_duty 2, 2, 0, 0
+.loop
+	sound __,  4, $f2, $0744
+	sound __,  3, $c4, $0740
+	sound __,  2, $a4, $073b
+	sound __,  2, $84, $0736
+	sound __,  2, $54, $0731
+	loopchannel 3, .loop
+	sound_duty 0, 0, 0, 0
+	sound __, 12, $e8, $071c
+	sound __, 16, $e8, $076c
+	sound __,  1, $f8, $0763
+	sound __,  1, $f8, $0759
+	sound __, 16, $f5, $0750
+	endchannel
+	
