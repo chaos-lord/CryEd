@@ -37,6 +37,8 @@ Bonsly
 Chatot (including base cry)
 Empoleon
 Prinplup
+Drillbur
+Excadrill
 
 SourApple for making the following cries:
 Blaziken
