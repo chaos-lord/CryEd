@@ -39,6 +39,20 @@ Empoleon
 Prinplup
 Drillbur
 Excadrill
+Sandile
+Krokrok
+Krookadile
+Ducklett
+Swanna
+Crabrawler (including base cry)
+Crabomnible
+Aurorus
+Sligoo
+Goodra
+Clauncher
+Clawitzer
+Heliolisk (including base cry)
+Helioptile
 
 SourApple for making the following cries:
 Blaziken
@@ -125,7 +139,8 @@ Aggron
 
 MyRattata for making the following cries
 Gastrodon, including discovering the out of bounds base cry
-Metagross 
+Metagross
+Goomy, (including base cry)
 
 walshyb for making the following cries
 Piplup

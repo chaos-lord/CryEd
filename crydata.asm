@@ -365,29 +365,29 @@ PokemonCries::
 	mon_cry CRY_NIDORAN_M,  -$013,  $0d5 ; SIMISAGE
 	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; DRILBUR
 	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; EXCADRILL
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; SANDILE - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; KROKOROK - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; KROOKODILE - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; DUCKLETT - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; SWANNA - PLACEHOLDER
+	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; SANDILE
+	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; KROKOROK
+	mon_cry CRY_LAPRAS,     -$209,  $1ca ; KROOKODILE
+	mon_cry CRY_LEDYBA,     -$0cd,  $0ec ; DUCKLETT
+	mon_cry CRY_TEDDIURSA,  -$022,  $0ca ; SWANNA
 	mon_cry CRY_SENTRET,     $03a,  $2a8 ; TYNAMO
 	mon_cry CRY_LAPRAS,     -$159,  $145 ; EELEKTRIK
 	mon_cry CRY_BLASTOISE,   $06f,  $148 ; EELEKTROSS
 	mon_cry CRY_WOOPER,      $030,  $0d0 ; LITWICK
 	mon_cry CRY_CLEFAIRY,   -$02e,  $1dd ; LAMPENT
 	mon_cry CRY_ENTEI,       $078,  $4c0 ; CHANDELURE
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; CLAUNCHER - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; CLAWITZER - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; HELIOPTILE - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; HELIOLISK - PLACEHOLDER
+	mon_cry CRY_KRABBY,      $035,  $0ac ; CLAUNCHER
+	mon_cry CRY_SQUIRTLE,   -$026,  $097 ; CLAWITZER
+	mon_cry CRY_PARAS,       $059,  $12a ; HELIOPTILE
+	mon_cry CRY_HELIOLISK,  -$005,  $0f8 ; HELIOLISK
 	mon_cry CRY_AMAURA,     -$002,  $13d ; AMAURA
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; AURORUS - PLACEHOLDER
+	mon_cry CRY_BLASTOISE,   $103,  $0ea ; AURORUS
 	mon_cry CRY_VENONAT,     $0b0,  $16f ; SYLVEON
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; GOOMY - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; SLIGGOO - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; GOODRA - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; CRABRAWLER - PLACEHOLDER
-	mon_cry CRY_NIDORAN_M,   $000,  $100 ; CRABOMINABLE - PLACEHOLDER
+	mon_cry CRY_GOOMY,       $0b4,  $0ea ; GOOMY
+	mon_cry CRY_CHATOT,     -$01a,  $2e6 ; SLIGGOO
+	mon_cry CRY_VULPIX,     -$107,  $0ca ; GOODRA
+	mon_cry CRY_CRABRAWLER, -$349,  $0ab ; CRABRAWLER
+	mon_cry CRY_KRABBY,     -$009,  $170 ; CRABOMINABLE
 	mon_cry CRY_PICHU,      -$03e,  $0fc ; CUTIEFLY
 	mon_cry CRY_PICHU,      -$029,  $3a0 ; RIBOMBEE
 	mon_cry CRY_EKANS,       $0ff,  $140 ; ONIXTRET

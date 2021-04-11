@@ -72,3 +72,6 @@ Cries: ; e91b0
 	dba Cry_Chatot
 	dba Cry_Amaura
 	dba Cry_Buneary
+	dba Cry_Crabrawler
+	dba Cry_Goomy
+	dba Cry_Heliolisk
