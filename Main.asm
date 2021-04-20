@@ -1234,14 +1234,14 @@ _Panic::
 _WaitVBlank::
     ldh     a,[rIE]
     bit     IEF_VBLANK,a
-    ret     z
+    ret     z ;if vblank interupt is off, return
 .wait
-    halt
+    halt ;wait for interupt
     ld      a,[sys_VBlankFlag]
     and     a
-    jr      nz,.wait
+    jr      nz,.wait ;loop until sys_VBlankFlag is unset
     xor     a
-    ld      [sys_VBlankFlag],a
+    ld      [sys_VBlankFlag],a ;then load 0 into it? when it has to be 0 to get here? this code is probably broken.
     ret
 
 _WaitTimer::
@@ -1393,34 +1393,58 @@ CryImporterLoop::
     jr      nz,.sub1
     jr      .continue
 .add16
-    ld      a,[hl]
+    ld      d,[hl]
+    inc     hl
+    ld      a,[hld]
     add     16
-    ld      [hl],a
+    ld      e, a
+    ld      a, 0
+    adc     d
+    ld      [hli],a
+    ld      [hl],e
     jr      .continue
 .sub16
-    ld      a,[hl]
+    ld      d,[hl]
+    inc     hl
+    ld      a,[hld]
     sub     16
-    ld      [hl],a
+    ld      e, a
+    ld      a, d
+    sbc     0
+    ld      [hli],a
+    ld      [hl],e
     jr      .continue
 .add1
-    inc     [hl]
+    ld      d,[hl]
+    inc     hl
+    ld      a,[hld]
+    ld      e, a
+    inc     de
+    ld      [hl],d
+    inc     hl
+    ld      [hl],e
     jr      .continue
 .sub1
-    dec     [hl]
+    ld      d,[hl]
+    inc     hl
+    ld      a,[hld]
+    ld      e, a
+    dec     de
+    ld      [hl],d
+    inc     hl
+    ld      [hl],e
     jr      .continue
 .previewCry
     ld      a,[sys_MenuPos]
-    cp      $ff
-    jr      z,.continue
-    ld      d,0
+    ld      d,a
+    ld      a,[sys_MenuPos + 1]
     ld      e,a
     call    PlayCry
     jr  .continue
 .importCry
     ld      a,[sys_MenuPos]
-    cp      $ff
-    jr      z,.nocry
-    ld      d,0
+    ld      d,a
+    ld      a,[sys_MenuPos + 1]
     ld      e,a
     call    PlayCry
 .cryloop
@@ -1452,9 +1476,15 @@ CryImporterLoop::
     call    PlaySFX
 .continue
     ld      a,[sys_MenuPos]
+    ld      hl,$986F
+    call    DrawHex
+    ld      a,[sys_MenuPos+1]
     ld      hl,$9871
     call    DrawHex
     ld      a,[sys_MenuPos]
+    ld      h,a
+    ld      a,[sys_MenuPos+1]
+    ld      l,a
     ld      bc,$9881
     call    PrintMonName
     call    UpdateSound
@@ -1466,7 +1496,7 @@ CryImporterTilemap::
     db  "                    "
     db  "  - CRY IMPORTER -  "
     db  "                    "
-    db  " Cry ID:        $?? "
+    db  " Cry ID:      $???? "
     db  " ??????????         "
     db  "                    "
     db  "    - CONTROLS -    "
@@ -1483,10 +1513,17 @@ CryImporterTilemap::
     db  "                    "
     db  "                    "
 
-; Input: a = Pokemon ID, bc = screen pos
+; Input: hl = Pokemon ID, bc = screen pos
 PrintMonName:
-    ld      h,0
-    ld      l,a
+	ld      a, h
+	cp      HIGH(NUM_MONS - 1)
+	jr      c, .continue
+	jr      nz, .noname
+	ld      a, l
+	cp      LOW(NUM_MONS - 1)
+	jr      c, .continue
+	jr      nz, .noname
+.continue
     add     hl,hl   ; x2
     ld      d,h
     ld      e,l
@@ -1511,6 +1548,24 @@ PrintMonName:
     ld      a,1
     ld      [rROMB0],a
     ret
+    
+.noname
+	ld      hl, OutOfBoundText
+	ld      d,b
+    ld      e,c
+    ld      b,10
+.nonameloop
+    WaitForVRAM
+    ld      a,[hl+]
+    sub     32
+    ld      [de],a
+    inc     de
+    dec     b
+    jr      nz,.nonameloop
+    ret
+
+OutOfBoundText:
+    db      "OUTOFBOUND"
     
 ; ============
 ; Sprite stuff
@@ -1556,6 +1611,8 @@ PtrToDE::
 ; =============
 ; Pokemon names
 ; =============
+
+NUM_MONS = 260 ;put the number of pokemon names added here
 
 ;section    "Pokemon names",romx,bank[2]    
 PokemonNames::
@@ -1810,11 +1867,16 @@ PokemonNames::
     db      "LUGIA     "
     db      "HO-OH     "
     db      "CELEBI    "
-    db      "?????     "
-    db      "?????     "
-    db      "?????     "
-    db      "?????     "
-    db      "?????     "
+    db      "TREECKO   "
+    db      "GROVYLE   "
+    db      "SCEPTILE  "
+    db      "TORCHIC   "
+    db      "COMBUSKEN "
+    db      "BLAZIKEN  "
+    db      "MUDKIP    "
+    db      "MARSHSTOMP"
+    db      "SWAMPERT  "
+
 
 ; ===========
 ; Sound stuff
