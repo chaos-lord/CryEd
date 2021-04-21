@@ -114,7 +114,6 @@ Infernape
 
 FrostedGeulleisia for making the following cries:
 Swablu
-Absol
 Glaceon
 
 Celadonk for making the following cries:
@@ -127,8 +126,10 @@ Linoone
 Lombre
 
 Monstarules for making the following cries:
+Tailow
+Swellow
+Bidoof
 Bibarel
-Torchic
 Combusken
 Mightyena
 Kirlia
@@ -146,3 +147,9 @@ walshyb for making the following cries
 Piplup
 Shellos
 Shinx
+
+Polisheddevs for making the following cries
+Leafeon
+Sylveon
+
+TPPDevs for Phancero's cry.

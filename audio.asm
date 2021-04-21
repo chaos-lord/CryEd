@@ -1029,9 +1029,6 @@ SFXChannelsOff:: ; 3e21
 	ret
 ; 3e32
 
-
-
-
 SECTION "Audio", ROMX[$4000],bank[1]
 
 INCLUDE "audio/engine.asm"
@@ -1053,8 +1050,10 @@ INCLUDE "audio/sfx_crystal.asm"
 
 
 
-SECTION "Cries", rom0
+SECTION "Crydata", ROMX, bank[3]
 
 INCLUDE "crydata.asm"
+
+SECTION "Cries", rom0
 
 INCLUDE "audio/cries.asm"

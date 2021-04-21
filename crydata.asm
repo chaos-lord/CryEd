@@ -256,152 +256,648 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $000,  $100 ; LUGIA
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
 	mon_cry CRY_ENTEI,       $14a,  $111 ; CELEBI
-	mon_cry CRY_KRABBY,      $0bf,  $0b0 ; TREECKO
-	mon_cry CRY_VENONAT,     $edb,  $170 ; GROVYLE
-	mon_cry CRY_VENONAT,     $f0b,  $200 ; SCEPTILE
-	mon_cry CRY_HOOTHOOT,    $0ff,  $0c8 ; TORCHIC
-	mon_cry CRY_HOOTHOOT,    $0b9,  $124 ; COMBUSKEN
-	mon_cry CRY_TYPHLOSION,  $f43,  $100 ; BLAZIKEN
-	mon_cry CRY_PSYDUCK,     $725,  $091 ; MUDKIP
-	mon_cry CRY_ODDISH,      $0ea,  $0e0 ; MARSHTOMP
-	mon_cry CRY_ODDISH,      $50d,  $1b2 ; SWAMPERT
-	mon_cry CRY_PIDGEY,      $52d,  $0f2 ; POOCHYENA
-	mon_cry CRY_BLASTOISE,   $000,  $150 ; MIGHTYENA
-	mon_cry CRY_WEEDLE,      $80b,  $081 ; ZIGZAGOON
-	mon_cry CRY_WEEDLE,      $609,  $1b1 ; LINOONE
-	mon_cry CRY_SPINARAK,    $ff3,  $060 ; LOTAD
-	mon_cry CRY_FEAROW,      $680,  $090 ; LOMBRE
-	mon_cry CRY_KRABBY,      $0d0,  $0fa ; LUDICOLO
-	mon_cry CRY_SPEAROW,     $06f,  $080 ; TAILLOW
-	mon_cry CRY_SPEAROW,     $020,  $090 ; SWELLOW
-	mon_cry CRY_SUNFLORA,    $d73,  $100 ; WINGULL
-	mon_cry CRY_MAGCARGO,    $f30,  $100 ; PELIPPER
-	mon_cry CRY_GLIGAR,      $ffc,  $110 ; RALTS
-	mon_cry CRY_VILEPLUME,   $008,  $100 ; KIRLIA
-	mon_cry CRY_VILEPLUME,   $f22,  $163 ; GARDEVOIR
-	mon_cry CRY_GROWLITHE,   $1bd,  $0f0 ; SURSKIT
-	mon_cry CRY_KRABBY,      $1b0,  $0c0 ; MASQUERAIN
-	mon_cry CRY_TOGETIC,     $00b,  $04a ; WHISMUR
-	mon_cry CRY_SLOWKING,    $8df,  $10a ; LOUDRED
-	mon_cry CRY_TEDDIURSA,   $6dd,  $100 ; EXPLOUD
-	mon_cry CRY_MUK,         $02d,  $0a0 ; MAKUHITA
-	mon_cry CRY_MUK,         $e22,  $1d0 ; HARIYAMA
-	mon_cry CRY_MARILL,      $124,  $0D0 ; AZURILL
-	mon_cry CRY_GIRAFARIG,   $076,  $100 ; SKITTY
-	mon_cry CRY_GIRAFARIG,   $058,  $400 ; DELCATTY
-	mon_cry CRY_CATERPIE,    $ee3,  $100 ; SABLEYE
-	mon_cry CRY_GROWLITHE,   $080,  $0b0 ; ARON
-	mon_cry CRY_WEEDLE,      $040,  $090 ; LAIRON
-	mon_cry CRY_SLOWKING,    $207,  $1b2 ; AGGRON
-	mon_cry CRY_PICHU,       $f17,  $270 ; ELECTRIKE
-	mon_cry CRY_UNUSED,      $f27,  $080 ; MANECTRIC
-	mon_cry CRY_AIPOM,       $041,  $0ae ; ROSELIA
-	mon_cry CRY_TEDDIURSA,   $58e,  $0c8 ; WAILMER
-	mon_cry CRY_TEDDIURSA,   $5bf,  $188 ; WAILORD
-	mon_cry CRY_CYNDAQUIL,   $2f4,  $129 ; TRAPINCH
-	mon_cry CRY_SLUGMA,      $2c2,  $0f3 ; VIBRAVA
-	mon_cry CRY_KRABBY,      $cda,  $132 ; FLYGON
-	mon_cry CRY_TOGETIC,     $010,  $017 ; SWABLU
-	mon_cry CRY_NIDORAN_M,   $045,  $155 ; ALTARIA
-	mon_cry CRY_RATTATA,     $1fd,  $170 ; LILEEP
-	mon_cry CRY_VILEPLUME,   $eea,  $200 ; CRADILY
-	mon_cry CRY_GRIMER,      $04d,  $0f0 ; FEEBAS
-	mon_cry CRY_SQUIRTLE,    $084,  $23c ; MILOTIC
-	mon_cry CRY_CYNDAQUIL,   $10e,  $050 ; DUSKULL
-	mon_cry CRY_NATU,        $a5e,  $160 ; DUSCLOPS
-	mon_cry CRY_SPEAROW,     $795,  $0A7 ; ABSOL
-	mon_cry CRY_PSYDUCK,     $26f,  $0dd ; SNORUNT
-	mon_cry CRY_SEEL,        $130,  $060 ; SPHEAL
-	mon_cry CRY_CLEFFA,      $e88,  $140 ; SEALEO
-	mon_cry CRY_WOOPER,      $e82,  $480 ; WALREIN
-	mon_cry CRY_NIDORAN_F,   $f26,  $0c0 ; BAGON
-	mon_cry CRY_NIDORAN_F,   $e15,  $200 ; SHELGON
-	mon_cry CRY_RAICHU,      $f1f,  $130 ; SALAMENCE
-	mon_cry CRY_CYNDAQUIL,   $40c,  $140 ; BELDUM
-	mon_cry CRY_SLOWKING,    $6af,  $17a ; METANG
-	mon_cry CRY_GOLEM,       $1A0,  $10A ; METAGROSS
-	mon_cry CRY_MAGCARGO,    $f1c,  $20a ; LATIOS
-	mon_cry CRY_METAPOD,     $689,  $20a ; KYOGRE
-	mon_cry CRY_TYPHLOSION,  $d18,  $18a ; GROUDON
-	mon_cry CRY_TOGETIC,     $d00,  $050 ; TURTWIG
-	mon_cry CRY_MARILL,      $eec,  $180 ; GROTLE
-	mon_cry CRY_ENTEI,       $eee,  $480 ; TORTERRA
-	mon_cry CRY_CLEFAIRY,    $06a,  $200 ; CHIMCHAR
-	mon_cry CRY_PIDGEOTTO,   $fef,  $200 ; MONFERNO
-	mon_cry CRY_PIDGEOTTO,   $ef6,  $300 ; INFERNAPE
-	mon_cry CRY_PSYDUCK,     $240,  $0f0 ; PIPLUP
-	mon_cry CRY_RAICHU,     -$006,  $0b0 ; PRINPLUP
-	mon_cry CRY_BLASTOISE,   $093,  $15a ; EMPOLEON
-	mon_cry CRY_MARILL,      $030,  $190 ; BIDOOF
-	mon_cry CRY_RAIKOU,      $030,  $150 ; BIBAREL
-	mon_cry CRY_RATTATA,     $065,  $270 ; SHINX
-	mon_cry CRY_PIDGEOTTO,   $010,  $180 ; LUXIO
-	mon_cry CRY_RAICHU,     -$038,  $0c8 ; LUXRAY
-	mon_cry CRY_VENONAT,     $00e,  $0be ; BUDEW
-	mon_cry CRY_PICHU,      -$047,  $266 ; ROSERADE
-	mon_cry CRY_CHATOT,      $03c,  $128 ; BURMY
-	mon_cry CRY_NIDOQUEEN,  -$05c,  $0d8 ; MOTHIM
-	mon_cry CRY_BLASTOISE,   $203,  $0c4 ; BUIZEL
-	mon_cry CRY_PIDGEOTTO,  -$0ca,  $240 ; FLOATZEL
-	mon_cry CRY_WEEDLE,      $0ff,  $0aa ; SHELLOS
-	mon_cry CRY_GASTRODON,   $830,  $050 ; GASTRODON
-	mon_cry CRY_BUNEARY,    -$012,  $09a ; BUNEARY
-	mon_cry CRY_VULPIX,     -$00f,  $0a9 ; LOPUNNY
-	mon_cry CRY_SLOWPOKE,   -$016,  $1c4 ; STUNKY
-	mon_cry CRY_BLASTOISE,   $0bc,  $0cd ; SKUNTANK
-	mon_cry CRY_EKANS,       $101,  $086 ; BRONZOR
-	mon_cry CRY_EKANS,       $12a,  $170 ; BRONZONG
-	mon_cry CRY_SLOWPOKE,    $03c,  $15a ; BONSLY
-	mon_cry CRY_CHATOT,      $002,  $120 ; CHATOT
-	mon_cry CRY_DIGLETT,    -$133,  $125 ; CROAGUNK
-	mon_cry CRY_SLOWKING,    $002,  $2c6 ; TOXICROAK
-	mon_cry CRY_VENONAT,     $03d,  $160 ; LEAFEON
-	mon_cry CRY_TYPHLOSION,  $014,  $118 ; GLACEON
-	mon_cry CRY_SEEL,        $212,  $270 ; PORYGON_Z
-	mon_cry CRY_MAGCARGO,   -$01a,  $2e2 ; DUSKNOIR
-	mon_cry CRY_BLASTOISE,   $12b,  $0eb ; FROSLASS
-	mon_cry CRY_RAICHU,     -$1f8,  $0e8 ; DARKRAI
-	mon_cry CRY_PSYDUCK,     $16b,  $09c ; PANSAGE
-	mon_cry CRY_NIDORAN_M,  -$013,  $0d5 ; SIMISAGE
-	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; DRILBUR
-	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; EXCADRILL
-	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; SANDILE
-	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; KROKOROK
-	mon_cry CRY_LAPRAS,     -$209,  $1ca ; KROOKODILE
-	mon_cry CRY_LEDYBA,     -$0cd,  $0ec ; DUCKLETT
-	mon_cry CRY_TEDDIURSA,  -$022,  $0ca ; SWANNA
-	mon_cry CRY_SENTRET,     $03a,  $2a8 ; TYNAMO
-	mon_cry CRY_LAPRAS,     -$159,  $145 ; EELEKTRIK
-	mon_cry CRY_BLASTOISE,   $06f,  $148 ; EELEKTROSS
-	mon_cry CRY_WOOPER,      $030,  $0d0 ; LITWICK
-	mon_cry CRY_CLEFAIRY,   -$02e,  $1dd ; LAMPENT
-	mon_cry CRY_ENTEI,       $078,  $4c0 ; CHANDELURE
-	mon_cry CRY_KRABBY,      $035,  $0ac ; CLAUNCHER
-	mon_cry CRY_SQUIRTLE,   -$026,  $097 ; CLAWITZER
-	mon_cry CRY_PARAS,       $059,  $12a ; HELIOPTILE
-	mon_cry CRY_HELIOLISK,  -$005,  $0f8 ; HELIOLISK
-	mon_cry CRY_AMAURA,     -$002,  $13d ; AMAURA
-	mon_cry CRY_BLASTOISE,   $103,  $0ea ; AURORUS
-	mon_cry CRY_VENONAT,     $0b0,  $16f ; SYLVEON
-	mon_cry CRY_GOOMY,       $0b4,  $0ea ; GOOMY
-	mon_cry CRY_CHATOT,     -$01a,  $2e6 ; SLIGGOO
-	mon_cry CRY_VULPIX,     -$107,  $0ca ; GOODRA
-	mon_cry CRY_CRABRAWLER, -$349,  $0ab ; CRABRAWLER
-	mon_cry CRY_KRABBY,     -$009,  $170 ; CRABOMINABLE
-	mon_cry CRY_PICHU,      -$03e,  $0fc ; CUTIEFLY
-	mon_cry CRY_PICHU,      -$029,  $3a0 ; RIBOMBEE
-	mon_cry CRY_EKANS,       $0ff,  $140 ; ONIXTRET
-	mon_cry CRY_CHIKORITA,  -$010,  $0b0 ; CHIQUIRTLE
-	mon_cry CRY_CHIKORITA,  -$022,  $120 ; BAYTORTLE
-	mon_cry CRY_CHIKORITA,  -$0b7,  $200 ; MEGASTOISE
-	mon_cry CRY_HOOTHOOT,    $091,  $0d8 ; HOOTDUO
-	mon_cry CRY_HOOTHOOT,    $000,  $1a0 ; NOCTDRIO
-	mon_cry CRY_TOGEPI,      $010,  $100 ; TOGEKEY
-	mon_cry CRY_TOGETIC,     $03b,  $038 ; TOGETAPE
-	mon_cry CRY_CLEFFA,      $03b,  $0c8 ; HOPPORITA
-	mon_cry CRY_CLEFFA,      $027,  $138 ; SKIPLEEF
-	mon_cry CRY_CLEFFA,      $000,  $180 ; JUMPANIUM
-	mon_cry CRY_WOOPER,      $093,  $0af ; WOOCHUM
-	mon_cry CRY_WOOPER,     -$0c6,  $140 ; QUAGYNX
-	mon_cry CRY_TYPHLOSION,  $0ef,  $0f7 ; STEELURRET
-	mon_cry CRY_FEAROW,      $11f,  $200 ; PHANCERO
+	mon_cry CRY_KRABBY,      $0bf,  $0b0 ; TREECKO SourApple
+	mon_cry CRY_VENONAT,     $edb,  $170 ; GROVYLE SourApple
+	mon_cry CRY_VENONAT,     $f0b,  $200 ; SCEPTILE SourApple
+	mon_cry CRY_HOOTHOOT,    $0ff,  $0c8 ; TORCHIC Celadonk
+	mon_cry CRY_HOOTHOOT,    $0b9,  $124 ; COMBUSKEN Celadonk
+	mon_cry CRY_TYPHLOSION,  $f43,  $100 ; BLAZIKEN SourApple
+	mon_cry CRY_PSYDUCK,     $725,  $091 ; MUDKIP Celadonk
+	mon_cry CRY_ODDISH,      $0ea,  $0e0 ; MARSHTOMP SourApple
+	mon_cry CRY_ODDISH,      $50d,  $1b2 ; SWAMPERT Celadonk
+	mon_cry CRY_PIDGEY,      $52d,  $0f2 ; POOCHYENA Celadonk
+	mon_cry CRY_BLASTOISE,   $000,  $150 ; MIGHTYENA Celadonk
+	mon_cry CRY_WEEDLE,      $80b,  $081 ; ZIGZAGOON Celadonk
+	mon_cry CRY_WEEDLE,      $609,  $1b1 ; LINOONE Celadonk
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WRUMPLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SILCOON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BEUTIFLY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CASCOON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DUSTOX PLACEHOLDER
+	mon_cry CRY_SPINARAK,    $ff3,  $060 ; LOTAD SourApple
+	mon_cry CRY_FEAROW,      $680,  $090 ; LOMBRE Celadonk
+	mon_cry CRY_KRABBY,      $0d0,  $0fa ; LUDICOLO SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SEEDOT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NUZLEAF PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHIFTRY PLACEHOLDER
+	mon_cry CRY_SPEAROW,     $06f,  $080 ; TAILLOW Monstarules
+	mon_cry CRY_SPEAROW,     $020,  $090 ; SWELLOW Monstarules
+	mon_cry CRY_SUNFLORA,    $d73,  $100 ; WINGULL SourApple
+	mon_cry CRY_MAGCARGO,    $f30,  $100 ; PELIPPER SourApple
+	mon_cry CRY_GLIGAR,      $ffc,  $110 ; RALTS SourApple
+	mon_cry CRY_VILEPLUME,   $008,  $100 ; KIRLIA Celadonk
+	mon_cry CRY_VILEPLUME,   $f22,  $163 ; GARDEVOIR Celadonk
+	mon_cry CRY_GROWLITHE,   $1bd,  $0f0 ; SURSKIT SourApple
+	mon_cry CRY_KRABBY,      $1b0,  $0c0 ; MASQUERAIN SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHROOMISH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BRELOOM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SLAKOTH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VIGOROTH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SLAKING PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NINCADA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NINJASK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHEDINJA PLACEHOLDER
+	mon_cry CRY_TOGETIC,     $00b,  $04a ; WHISMUR SourApple
+	mon_cry CRY_SLOWKING,    $8df,  $10a ; LOUDRED SourApple
+	mon_cry CRY_TEDDIURSA,   $6dd,  $100 ; EXPLOUD SourApple
+	mon_cry CRY_MUK,         $02d,  $0a0 ; MAKUHITA SourApple
+	mon_cry CRY_MUK,         $e22,  $1d0 ; HARIYAMA SourApple
+	mon_cry CRY_MARILL,      $124,  $0D0 ; AZURILL SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NOSEPASS PLACEHOLDER
+	mon_cry CRY_GIRAFARIG,   $076,  $100 ; SKITTY SourApple
+	mon_cry CRY_GIRAFARIG,   $058,  $400 ; DELCATTY SourApple
+	mon_cry CRY_CATERPIE,    $ee3,  $100 ; SABLEYE SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MAWILE PLACEHOLDER
+	mon_cry CRY_GROWLITHE,   $080,  $0b0 ; ARON Celadonk
+	mon_cry CRY_WEEDLE,      $040,  $090 ; LAIRON Celadonk
+	mon_cry CRY_SLOWKING,    $207,  $1b2 ; AGGRON Celadonk
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MEDITITE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MEDICHAM PLACEHOLDER
+	mon_cry CRY_PICHU,       $f17,  $270 ; ELECTRIKE SourApple
+	mon_cry CRY_UNUSED,      $f27,  $080 ; MANECTRIC SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PLUSLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MINUN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VOLBEAT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ILLUMISE PLACEHOLDER
+	mon_cry CRY_AIPOM,       $041,  $0ae ; ROSELIA SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GULPIN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SWALOT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CARVANHA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHARPEDO PLACEHOLDER
+	mon_cry CRY_TEDDIURSA,   $58e,  $0c8 ; WAILMER SourApple
+	mon_cry CRY_TEDDIURSA,   $5bf,  $188 ; WAILORD SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NUMEL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CAMERUPT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SPOINK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GRUMPIG PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SPINDA PLACEHOLDER
+	mon_cry CRY_CYNDAQUIL,   $2f4,  $129 ; TRAPINCH SourApple
+	mon_cry CRY_SLUGMA,      $2c2,  $0f3 ; VIBRAVA SourApple
+	mon_cry CRY_KRABBY,      $cda,  $132 ; FLYGON SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CACNEA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CACTURNE PLACEHOLDER
+	mon_cry CRY_TOGETIC,     $010,  $017 ; SWABLU FrostedGeulleisia
+	mon_cry CRY_NIDORAN_M,   $045,  $155 ; ALTARIA SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZANGOOSE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SEVIPER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LUNATONE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SOLROCK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BARBOACH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WHISCASH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CORPHISH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CRAWDAUNT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BALTOY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CLAYDOL PLACEHOLDER
+	mon_cry CRY_RATTATA,     $1fd,  $170 ; LILEEP SourApple
+	mon_cry CRY_VILEPLUME,   $eea,  $200 ; CRADILY SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ANORITH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ARMALDO PLACEHOLDER
+	mon_cry CRY_GRIMER,      $04d,  $0f0 ; FEEBAS SourApple
+	mon_cry CRY_SQUIRTLE,    $084,  $23c ; MILOTIC SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CASTFORM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KECLEON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHUPPET PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BANETTE PLACEHOLDER
+	mon_cry CRY_CYNDAQUIL,   $10e,  $050 ; DUSKULL SourApple
+	mon_cry CRY_NATU,        $a5e,  $160 ; DUSCLOPS SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TROPIUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHIMECHO PLACEHOLDER
+	mon_cry CRY_SPEAROW,     $795,  $0A7 ; ABSOL SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WYNAUT PLACEHOLDER
+	mon_cry CRY_PSYDUCK,     $26f,  $0dd ; SNORUNT SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GLALIE PLACEHOLDER
+	mon_cry CRY_SEEL,        $130,  $060 ; SPHEAL SourApple
+	mon_cry CRY_CLEFFA,      $e88,  $140 ; SEALEO SourApple
+	mon_cry CRY_WOOPER,      $e82,  $480 ; WALREIN SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CLAMPERL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HUNTAIL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOREBYSS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RELICANTH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LUVDISC PLACEHOLDER
+	mon_cry CRY_NIDORAN_F,   $f26,  $0c0 ; BAGON SourApple
+	mon_cry CRY_NIDORAN_F,   $e15,  $200 ; SHELGON SourApple
+	mon_cry CRY_RAICHU,      $f1f,  $130 ; SALAMENCE SourApple
+	mon_cry CRY_CYNDAQUIL,   $40c,  $140 ; BELDUM SourApple
+	mon_cry CRY_SLOWKING,    $6af,  $17a ; METANG SourApple
+	mon_cry CRY_GOLEM,       $1A0,  $10A ; METAGROSS SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; REGIROCK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; REGICE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; REGISTEEL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LATIAS PLACEHOLDER
+	mon_cry CRY_MAGCARGO,    $f1c,  $20a ; LATIOS SourApple
+	mon_cry CRY_METAPOD,     $689,  $20a ; KYOGRE SourApple
+	mon_cry CRY_TYPHLOSION,  $d18,  $18a ; GROUDON SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RAYQUAZA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; JIRACHI PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DEOXYS PLACEHOLDER
+	mon_cry CRY_TOGETIC,     $d00,  $050 ; TURTWIG SourApple
+	mon_cry CRY_MARILL,      $eec,  $180 ; GROTLE SourApple
+	mon_cry CRY_ENTEI,       $eee,  $480 ; TORTERRA SourApple
+	mon_cry CRY_CLEFAIRY,    $06a,  $200 ; CHIMCHAR SourApple
+	mon_cry CRY_PIDGEOTTO,   $fef,  $200 ; MONFERNO SourApple
+	mon_cry CRY_PIDGEOTTO,   $ef6,  $300 ; INFERNAPE SourApple
+	mon_cry CRY_PSYDUCK,     $240,  $0f0 ; PIPLUP walshyb
+	mon_cry CRY_RAICHU,     -$006,  $0b0 ; PRINPLUP Ax6
+	mon_cry CRY_BLASTOISE,   $093,  $15a ; EMPOLEON Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; STARLY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; STARAVIA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; STARAPTOR PLACEHOLDER
+	mon_cry CRY_MARILL,      $030,  $190 ; BIDOOF Monstarules
+	mon_cry CRY_RAIKOU,      $030,  $150 ; BIBAREL Monstarules
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KRIKETOT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KRIKETUNE PLACEHOLDER
+	mon_cry CRY_RATTATA,     $065,  $270 ; SHINX walshyb
+	mon_cry CRY_PIDGEOTTO,   $010,  $180 ; LUXIO Ax6
+	mon_cry CRY_RAICHU,     -$038,  $0c8 ; LUXRAY Ax6
+	mon_cry CRY_VENONAT,     $00e,  $0be ; BUDEW Ax6
+	mon_cry CRY_PICHU,      -$047,  $266 ; ROSERADE Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CRANIDOS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RAMPADOS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHIELDON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BASTIODON PLACEHOLDER
+	mon_cry CRY_CHATOT,      $03c,  $128 ; BURMY Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WORMADAM PLACEHOLDER
+	mon_cry CRY_NIDOQUEEN,  -$05c,  $0d8 ; MOTHIM Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; COMBEE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VESPIQUEN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PACHIRISU PLACEHOLDER
+	mon_cry CRY_BLASTOISE,   $203,  $0c4 ; BUIZEL Ax6
+	mon_cry CRY_PIDGEOTTO,  -$0ca,  $240 ; FLOATZEL Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHERUBI PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHERIM PLACEHOLDER
+	mon_cry CRY_WEEDLE,      $0ff,  $0aa ; SHELLOS walshyb
+	mon_cry CRY_GASTRODON,   $830,  $050 ; GASTRODON Gastrodon
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; AMBIPOM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRIFLOON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRIFBLIM PLACEHOLDER
+	mon_cry CRY_BUNEARY,    -$012,  $09a ; BUNEARY Ax6
+	mon_cry CRY_VULPIX,     -$00f,  $0a9 ; LOPUNNY Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MISMAGIUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HONCHKROW PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GLAMEOW PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PURUGLY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHINGLING PLACEHOLDER
+	mon_cry CRY_SLOWPOKE,   -$016,  $1c4 ; STUNKY Ax6
+	mon_cry CRY_BLASTOISE,   $0bc,  $0cd ; SKUNTANK Ax6
+	mon_cry CRY_EKANS,       $101,  $086 ; BRONZOR Ax6
+	mon_cry CRY_EKANS,       $12a,  $170 ; BRONZONG Ax6
+	mon_cry CRY_SLOWPOKE,    $03c,  $15a ; BONSLY Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MIME_JR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HAPPINY PLACEHOLDER
+	mon_cry CRY_CHATOT,      $002,  $120 ; CHATOT Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SPIRITOMB PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GIBLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GABITE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GARCHOMP PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MUNCHLAX PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RIOLU PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LUCARIO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HIPPOPOTAS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HIPPOWDON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SKORUPI PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRAPION PLACEHOLDER
+	mon_cry CRY_DIGLETT,    -$133,  $125 ; CROAGUNK Ax6
+	mon_cry CRY_SLOWKING,    $002,  $2c6 ; TOXICROAK Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CARNIVINE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FINNEON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LUMINEON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MANTYKE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SNOWVER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ABOMASNOW PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WEAVILE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MAGNEZONE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LICKYLICKY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RHYPERIOR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TANGROWTH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ELECTRIVE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MAGMORTAR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TOGEKISS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; YANMEGA PLACEHOLDER
+	mon_cry CRY_VENONAT,     $03d,  $160 ; LEAFEON Polisheddevs
+	mon_cry CRY_TYPHLOSION,  $014,  $118 ; GLACEON FrostedGeulleisia
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GLISCOR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MAMOSWINE PLACEHOLDER
+	mon_cry CRY_SEEL,        $212,  $270 ; PORYGON_Z SourApple
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GALLADE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PROBOPASS PLACEHOLDER
+	mon_cry CRY_MAGCARGO,   -$01a,  $2e2 ; DUSKNOIR Ax6
+	mon_cry CRY_BLASTOISE,   $12b,  $0eb ; FROSLASS Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ROTOM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; UXIE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MESPIRIT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; AZELF PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DIALGA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PALKIA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HEATRAN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; REGIGIGAS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GIRATINA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CRESSILIA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PHIONE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MANAPHY PLACEHOLDER
+	mon_cry CRY_RAICHU,     -$1f8,  $0e8 ; DARKRAI Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHAYMIN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ARCEUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VICTINI PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SNIVY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SERVINE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SERPERIOR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TEPIG PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIGNITE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; EMBOAR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; OSHAWOTT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DEWOTT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SAMUROTT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PATRAT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WATCHOG PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LILLIPUP PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HERDIER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; STOUTLAND PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PURRLOIN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LIEPARD PLACEHOLDER
+	mon_cry CRY_PSYDUCK,     $16b,  $09c ; PANSAGE Ax6
+	mon_cry CRY_NIDORAN_M,  -$013,  $0d5 ; SIMISAGE Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PANSEAR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SIMISEAR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PANPOUR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SIMIPOUR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MUNNA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MUSHANA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIDOVE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TRANQUILL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; UNFEZANT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BLITZLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZEBSTRIKA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ROGGENROLA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BOLDORE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GIGALITH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WOOBAT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SWOOBAT PLACEHOLDER
+	mon_cry CRY_TEDDIURSA,  -$018,  $0b3 ; DRILBUR Ax6
+	mon_cry CRY_NIDOQUEEN,  -$108,  $14d ; EXCADRILL Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; AUDINO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TIMBURR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GURDURR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CONKLEDURR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TYMPOLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PALPITOAD PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SEISMITOAD PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; THROH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SAWK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SEWADDLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SWADLOON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LEAVANNY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VENIPEDE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WHIRLIPEDE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SCOILIPEDE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; COTTONEE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WHIMSICOTT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PETILIL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LILLIGANT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BASCULIN PLACEHOLDER
+	mon_cry CRY_PIDGEOTTO,  -$099,  $0f3 ; SANDILE Ax6
+	mon_cry CRY_LAPRAS,     -$1d8,  $15d ; KROKOROK Ax6
+	mon_cry CRY_LAPRAS,     -$209,  $1ca ; KROOKODILE Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DARUMAKA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DARMANITAN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MARACTUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DWEBBLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CRUSTLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SCRAGGY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SCRAFTY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SIGILITH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; YAMASK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; COFAGRIGUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TIRTOUGA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CARRACOSTA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ARCHEN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ARCHEOPS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TRUBBISH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GARBADOR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZORUA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZOROARK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MINCCINO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CINCCINO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOTHITA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOTHORITA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOTHITELLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SOLOSIS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DUOSION PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; REUNICLUS PLACEHOLDER
+	mon_cry CRY_LEDYBA,     -$0cd,  $0ec ; DUCKLETT Ax6
+	mon_cry CRY_TEDDIURSA,  -$022,  $0ca ; SWANNA Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VANILLITE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VANILLISH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VANILLUXE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DEARLING PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SAWSBUCK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; EMOLGA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KERRABLAST PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ESCAVALIER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FOONGUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; AMOONGUSS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FRILLISH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; JELLICANT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; JOLTIK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GAVANTULA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FERROSEED PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FERROTHORN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KLINK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KLANG PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KLINKLANG PLACEHOLDER
+	mon_cry CRY_SENTRET,     $03a,  $2a8 ; TYNAMO Ax6
+	mon_cry CRY_LAPRAS,     -$159,  $145 ; EELEKTRIK Ax6
+	mon_cry CRY_BLASTOISE,   $06f,  $148 ; EELEKTROSS Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ELGYEM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BEHEEYEM PLACEHOLDER
+	mon_cry CRY_WOOPER,      $030,  $0d0 ; LITWICK Ax6
+	mon_cry CRY_CLEFAIRY,   -$02e,  $1dd ; LAMPENT Ax6
+	mon_cry CRY_ENTEI,       $078,  $4c0 ; CHANDELURE Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; AXEW PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FRAXURE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HAXORUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CUBCHOO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BEARTIC PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CRYOGONAL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHELMET PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ACCELGOR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; STUNFISK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MIENFOO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MIENSHAO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRUDDIGON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOLETT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOLURK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PAWNIARD PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BISHARP PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BOUFFALANT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RUFFLET PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BRAVIARY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VULLABY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MANDIBUZZ PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HEATMOR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DURANT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DEINO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZWEILOUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HYDREIGON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LARVESTA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VOLCARONA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; COBALION PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TERRAKION PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VIRIZION PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TORNADUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; THUNDERUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RESHIRAM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZEKROM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LANDEROUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KYUREM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KELDEO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MELOETTA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GENESECT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHESPIN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; QUILLADIN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHESTNAUGHT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FENNEKIN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BRAIXEN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DELPHOX PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FROAKIE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FROGADIER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GRENINJA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BUNNELBY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DIGGERSBY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FLETCHLING PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FLETCHINDER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TALONFLAME PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SCATTERBUG PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SPEWPA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VIVILLON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LITLEO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PYROAR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FLABEBE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FLOETTE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FLORGES PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SKIDDO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOGOAT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PANCHAM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PANGORO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FURFROU PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ESPURR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MEOWSTIC PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HONEDGE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DOUBLADE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; AEGISLASH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SPRITZEE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; AROMATISSE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SWIRLIX PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SLURPUFF PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; INKAY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MALAMAR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BIANCLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BARBANCLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SKRELP PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRAGALGE PLACEHOLDER
+	mon_cry CRY_KRABBY,      $035,  $0ac ; CLAUNCHER Ax6
+	mon_cry CRY_SQUIRTLE,   -$026,  $097 ; CLAWITZER Ax6
+	mon_cry CRY_PARAS,       $059,  $12a ; HELIOPTILE Ax6
+	mon_cry CRY_HELIOLISK,  -$005,  $0f8 ; HELIOLISK Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TYRUNT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TYRANTRUM PLACEHOLDER
+	mon_cry CRY_AMAURA,     -$002,  $13d ; AMAURA Ax6
+	mon_cry CRY_BLASTOISE,   $103,  $0ea ; AURORUS Ax6
+	mon_cry CRY_VENONAT,     $0b0,  $16f ; SYLVEON Polisheddevs
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HAWLUCHA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DEDENNE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CARBINK PLACEHOLDER
+	mon_cry CRY_GOOMY,       $0b4,  $0ea ; GOOMY Gastrodon
+	mon_cry CRY_CHATOT,     -$01a,  $2e6 ; SLIGGOO Ax6
+	mon_cry CRY_VULPIX,     -$107,  $0ca ; GOODRA Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KLEFKI PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PHANTUMP PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TREVENANT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PUMPKABOO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOURGEIST PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BERGMITE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; AVALUGG PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NOIBAT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NOIVERN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; XERNEAS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; YVELTAL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZYGARDE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DIANCIE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HOOPA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VOLCANION PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ROWLET PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DARTRIX PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DECIDUEYE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LITTEN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TORRACAT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; INCINEROAR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; POPPLIO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BRIONNE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PRIMARINA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PIKIPEK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TRUMBEAK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TOUCANNON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; YUNGOOS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GUMSHOOS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GRUBBIN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHARJABUG PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; VIKAVOLT PLACEHOLDER
+	mon_cry CRY_CRABRAWLER, -$349,  $0ab ; CRABRAWLER Ax6
+	mon_cry CRY_KRABBY,     -$009,  $170 ; CRABOMINABLE Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ORICORIO PLACEHOLDER
+	mon_cry CRY_PICHU,      -$03e,  $0fc ; CUTIEFLY Ax6
+	mon_cry CRY_PICHU,      -$029,  $3a0 ; RIBOMBEE Ax6
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ROCKRUFF PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LYCANROC PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WISHIWASHI PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MAREANIE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TOXAPEX PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MUDBRAY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MUDSDALE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DEWPIDER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ARAQUANID PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FOMANTIS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LURANTIS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MORELULL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHIINOTIC PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SALANDIT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SALAZZLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; STUFFUL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BEWEAR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BOUNSWEET PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; STEENEE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TSAREENA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; COMFEY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ORANGURU PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PASSIMIAN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WIMPOD PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOLISOPOD PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SANDYGAST PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PALOSSAND PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PYUKUMUKU PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TYPENULL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SILVALLY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MINIOR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KOMALA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TURTONATOR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TOGEDEMARU PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MIMIKYU PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BRUXISH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRAMPA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DHELMISE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; JANGMO-O PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HAKAMO-O PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KOMMO-O PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TAPU_KOKO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TAPU_LELE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TAPU_BULU PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TAPU_FINI PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; COSMOG PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; COSMOEM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SOLGALEO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; LUNALA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NIHILEGO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BUZZWOLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PHEROMOSA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; XURKITREE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CELESTEELA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KARTANA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GUZZLORD PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NECROZMA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MAGEARNA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MARSHADOW PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; POIPOLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NAGANADEL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; STAKATAKA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BLACEPHALON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZERAORA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MELTAN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MELMETAL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GROOKEY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; THWACKEY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RILLABOOM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SCORBUNNY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RABOOT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CINDERACE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SOBBLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRIZZILE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; INTELEON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SKWOVET PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GREEDENT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ROOKIDEE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CORVISQUIRE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CORVIKNIGHT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BLIPBUG PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DOTTLER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ORBEETLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; NICKIT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; THIEVUL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GOSSIFLEUR PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ELDEGOSS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; WOOLOO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DUBWOOL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHEWTLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DREDNAW PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; YAMPER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BOLTUND PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ROLYCOLY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CARKOL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; COALOSSAL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; APPLIN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FLAPPLE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; APPLETUN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SILICOBRA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SANDACONDA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CRAMORANT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ARROKUDA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; BARRASKEWDA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TOXEL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TOXTRICITY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SIZZLIPEDE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CENTISKORCH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CLOBBOPUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GRAPPLOCT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SINISTEA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; POLTEAGEIST PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HATENNA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HATTREM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; HATTERENE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; IMPIDIMP PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MORGREM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GRIMMSNARL PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; OBSTAGOON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PERRSERKER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CURSOLA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SIRFETCHD PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MRRIME PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; RUNERIGUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MILCERY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ALCREMIE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FALINKS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; PINCURCHIN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SNOM PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; FROSMOTH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; STONJOURNER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; EISCUE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; INDEEDEE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; MORPEKO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CUFANT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; COPPERAJAH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRACOZOLT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ARCTOZOLT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRACOVISH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ARCTOVISH PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DURALUDON PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DREEPY PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRAKLOAK PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRAGAPULT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZACIAN PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZAMAZENTA PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ETERNATUS PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; KUBFU PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; URSHIFU PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ZARUDE PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; REGIELEKI PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; REGIDRAGO PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; GLASTRIER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; SPECTRIER PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; CALYREX PLACEHOLDER

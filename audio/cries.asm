@@ -2328,8 +2328,7 @@ Cry_Gastrodon_Ch6:
 	sound __,  3, $f7, $0602
 	sound __,  3, $f7, $0702
 	loopchannel 8, Cry_Gastrodon_branch
-	endchannel ;is this neccersary? the above loop command should cause it to jump to Ch5.
-
+	
 Cry_Gastrodon_Ch8: 
 Cry_Gastrodon_Ch8_branch: 
 	noise __,  2, $f8, $41
