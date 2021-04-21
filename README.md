@@ -6,7 +6,7 @@ All cries here are free to include in your own hack so long as thier creators ar
 
 # The anatomy of a cry:
 
-Cries have 3 parts, a base cry, a pitch setting and a length. Base cries are the basic sound which the cry is based off, the pitch, as the name suggests, adjusts the pitch of the cry to be higher or lower while the lenth is how fast the cry plays, higher is longer, but unlike typical audio stretching does not adjust the pitch, instead becomming crackly at extreme lengths as the notes are played further apart. (TODO: write better cry guide)
+Cries have 3 parts, a base cry, a pitch setting and a length. Base cries are the basic sound which the cry is based off, the pitch, as the name suggests, adjusts the pitch of the cry to be higher or lower while the lenth is how fast the cry plays, higher is longer, but unlike typical audio stretching does not adjust the pitch, instead becomming crackly at extreme lengths as the notes are played further apart.
 
 # How to use CryEd:
 
@@ -26,7 +26,7 @@ Go to crydata.asm and replace the appropriate placeholder cry with the correct b
 
 # How to add a new base cry:
 
-Add the sound itself to audio/cries.asm. TODO: link a GBC sound engine guide.
+Add the sound itself to audio/cries.asm. TODO: Add a guide to making base cries
 Add a pointer to the new base cry to audio/cry_pointers in the same way as those that exist
 Add a new constant to cry_constants.asm in the same way as those that exist
 
@@ -38,15 +38,19 @@ When you have added your new cry, it would be very nice if you submitted it to t
 
 Once ratings have been sorted out, when a cry is added it will be rated from 1 to 5 stars (*'s) representing the percieved quality at emulating the real cry. The rating scale is below.
 
-\***** is a perfect cry matching a vanilla cry almost exactly, given the limits of the hardware
+\*\*\*\*\* is a perfect cry matching a vanilla cry almost exactly, given the limits of the hardware
 
-\**** is a very good cry that can't be told from vanilla unless they are played side by side.
+\*\*\*\* is a solid cry that is identifyable as the pokemon, but is slightly off.
 
-\*** is a solid cry that is identifyable as the pokemon, but is slightly off.
+\*\*\*  is a cry that does the job and sounds reasonably like the pokemons, but is flawed.
 
-\** is a cry that does the job, but is flawed.
+\*\* is a well fitting placeholder, but does not match the pokemon's original.
 
-\* is a well fitting placeholder that should be replaced.
+\* is obviously wrong and does not fit the pokemon even as a new cry.
+
+# Fakemons
+
+Fakemon submissions are permitted to the library, so long as the fakemon exists in at least 1 finished or otherwise prominant hack (it need not be gen 2), but they are stored seperatly in fakemoncrydata.asm to retain the ability for the basic crydata to be drag and dropped into an all vanilla mons hack.
 
 # How to port the cry list to your crystal16 based project:
 
