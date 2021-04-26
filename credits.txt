@@ -1,5 +1,6 @@
 DevEd for making CryEd.
 Pret and everyone who contributed to pokecrystal, as CryEds audio engine was taken from pokecrystal.
+Dotsarecool for making the Gen 1 cry editor that also works on gen 2 due to the shared engine.
 Chaos_Lord2 for orgainising the library and improving Combusken' cry.
 
 Ax6 for making the linux makefile and the following cries.
