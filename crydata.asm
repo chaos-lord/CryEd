@@ -328,6 +328,7 @@ PokemonCries::
 	mon_cry CRY_TEDDIURSA,   $5bf,  $188 ; WAILORD SourApple
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; NUMEL PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; CAMERUPT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; TORKOAL PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; SPOINK PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; GRUMPIG PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; SPINDA PLACEHOLDER
@@ -597,6 +598,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; AMOONGUSS PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; FRILLISH PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; JELLICANT PLACEHOLDER
+	mon_cry CRY_PIDGEY,      $0df,  $084 ; ALOLAMOLA PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; JOLTIK PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; GAVANTULA PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; FERROSEED PLACEHOLDER

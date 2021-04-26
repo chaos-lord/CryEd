@@ -1,6 +1,6 @@
-SFX: ; e927c
+SFX:
 ; entries correspond to SFX_* constants
-
+	table_width 3, SFX
 	dba Sfx_DexFanfare5079
 	dba Sfx_Item
 	dba Sfx_CaughtMon
@@ -149,9 +149,9 @@ SFX: ; e927c
 	dba Sfx_KeyItem
 	dba Sfx_Fanfare2
 	dba Sfx_RegisterPhoneNumber
-	dba Sfx_3RdPlace
-	dba Sfx_GetEggFromDayCareMan
-	dba Sfx_GetEggFromDayCareLady
+	dba Sfx_3rdPlace
+	dba Sfx_GetEgg
+	dba Sfx_GetEgg
 	dba Sfx_MoveDeleted
 	dba Sfx_2ndPlace
 	dba Sfx_1stPlace
@@ -189,11 +189,9 @@ SFX: ; e927c
 	dba Sfx_TrainArrived
 	dba Sfx_StopSlot
 	dba Sfx_2Boops
+; new to Crystal
 	dba Sfx_GlassTing
 	dba Sfx_GlassTing2
-
-; Crystal adds the following SFX:
-
 	dba Sfx_IntroUnown1
 	dba Sfx_IntroUnown2
 	dba Sfx_IntroUnown3
@@ -207,8 +205,8 @@ SFX: ; e927c
 	dba Sfx_IntroSuicune4
 	dba Sfx_GameFreakPresents
 	dba Sfx_Tingle
-	dba Sfx_UnknownCB
+	dba Sfx_IntroWhoosh
 	dba Sfx_TwoPcBeeps
 	dba Sfx_4NoteDitty
 	dba Sfx_Twinkle
-; e94e9
+	assert_table_length NUM_SFX

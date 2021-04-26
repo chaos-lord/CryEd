@@ -8,22 +8,22 @@
 
 CheckInput:
 	ld	a,P1F_5
-	ld	[rP1],a
-	ld	a,[rP1]
-	ld	a,[rP1]
+	ld	[rJOYP],a
+	ld	a,[rJOYP]
+	ld	a,[rJOYP]
 	cpl
 	and	a,$f
 	swap	a
 	ld	b,a
 	
 	ld	a,P1F_4
-	ld	[rP1],a
-	ld	a,[rP1]
-	ld	a,[rP1]
-	ld	a,[rP1]
-	ld	a,[rP1]
-	ld	a,[rP1]
-	ld	a,[rP1]
+	ld	[rJOYP],a
+	ld	a,[rJOYP]
+	ld	a,[rJOYP]
+	ld	a,[rJOYP]
+	ld	a,[rJOYP]
+	ld	a,[rJOYP]
+	ld	a,[rJOYP]
 	cpl
 	and	a,$f
 	or	a,b
@@ -36,7 +36,7 @@ CheckInput:
 	ld	a,b
 	ld	[sys_btnHold],a
 	ld	a,P1F_5|P1F_4
-	ld	[rP1],a
+	ld	[rJOYP],a
 	ret
 
 ; ================================================================

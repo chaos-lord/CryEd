@@ -1,27 +1,26 @@
-Drumkits: ; e8e52
+Drumkits:
 	dw Drumkit0
 	dw Drumkit1
 	dw Drumkit2
 	dw Drumkit3
 	dw Drumkit4
 	dw Drumkit5
-; e8e5e
 
-Drumkit0: ; e8e5e
-	dw Drum00    ; rest
-	dw Snare1    ; c
-	dw Snare2    ; c#
-	dw Snare3    ; d
-	dw Snare4    ; d#
-	dw Drum05    ; e
-	dw Triangle1 ; f
-	dw Triangle2 ; f#
-	dw HiHat1    ; g
-	dw Snare5    ; g#
-	dw Snare6    ; a
-	dw Snare7    ; a#
-	dw HiHat2    ; b
-Drumkit1: ; e8e78
+Drumkit0:
+	dw Drum00
+	dw Snare1
+	dw Snare2
+	dw Snare3
+	dw Snare4
+	dw Drum05
+	dw Triangle1
+	dw Triangle2
+	dw HiHat1
+	dw Snare5
+	dw Snare6
+	dw Snare7
+	dw HiHat2
+Drumkit1:
 	dw Drum00
 	dw HiHat1
 	dw Snare5
@@ -35,7 +34,7 @@ Drumkit1: ; e8e78
 	dw Snare9
 	dw Snare10
 	dw Snare11
-Drumkit2: ; e8e92
+Drumkit2:
 	dw Drum00
 	dw Snare1
 	dw Snare9
@@ -49,7 +48,7 @@ Drumkit2: ; e8e92
 	dw Snare6
 	dw Snare7
 	dw HiHat2
-Drumkit3: ; e8eac
+Drumkit3:
 	dw Drum21
 	dw Snare12
 	dw Snare13
@@ -63,7 +62,7 @@ Drumkit3: ; e8eac
 	dw Drum21
 	dw Kick2
 	dw Crash2
-Drumkit4: ; e8ec6
+Drumkit4:
 	dw Drum21
 	dw Drum20
 	dw Snare13
@@ -77,7 +76,7 @@ Drumkit4: ; e8ec6
 	dw Drum36
 	dw Kick2
 	dw Crash1
-Drumkit5: ; e8ee0
+Drumkit5:
 	dw Drum00
 	dw Snare9
 	dw Snare10
@@ -91,211 +90,171 @@ Drumkit5: ; e8ee0
 	dw Snare14
 	dw Snare13
 	dw Kick2
-; e8efa
 
-Drum00: ; e8efa
-; unused
-	noise C#,  1, $11, $00
-	endchannel
-; e8efe
+Drum00:
+	noise_note 32, 1, 1, 0
+	sound_ret
 
-Snare1: ; e8efe
-	noise C#,  1, $c1, $33
-	endchannel
-; e8f02
+Snare1:
+	noise_note 32, 12, 1, 51
+	sound_ret
 
-Snare2: ; e8f02
-	noise C#,  1, $b1, $33
-	endchannel
-; e8f06
+Snare2:
+	noise_note 32, 11, 1, 51
+	sound_ret
 
-Snare3: ; e8f06
-	noise C#,  1, $a1, $33
-	endchannel
-; e8f0a
+Snare3:
+	noise_note 32, 10, 1, 51
+	sound_ret
 
-Snare4: ; e8f0a
-	noise C#,  1, $81, $33
-	endchannel
-; e8f0e
+Snare4:
+	noise_note 32, 8, 1, 51
+	sound_ret
 
-Drum05: ; e8f0e
-	noise C#,  8, $84, $37
-	noise C#,  7, $84, $36
-	noise C#,  6, $83, $35
-	noise C#,  5, $83, $34
-	noise C#,  4, $82, $33
-	noise C#,  3, $81, $32
-	endchannel
-; e8f21
+Drum05:
+	noise_note 39, 8, 4, 55
+	noise_note 38, 8, 4, 54
+	noise_note 37, 8, 3, 53
+	noise_note 36, 8, 3, 52
+	noise_note 35, 8, 2, 51
+	noise_note 34, 8, 1, 50
+	sound_ret
 
-Triangle1: ; e8f21
-	noise C#,  1, $51, $2a
-	endchannel
-; e8f25
+Triangle1:
+	noise_note 32, 5, 1, 42
+	sound_ret
 
-Triangle2: ; e8f25
-	noise C#,  2, $41, $2b
-	noise C#,  1, $61, $2a
-	endchannel
-; e8f2c
+Triangle2:
+	noise_note 33, 4, 1, 43
+	noise_note 32, 6, 1, 42
+	sound_ret
 
-HiHat1: ; e8f2c
-	noise C#,  1, $81, $10
-	endchannel
-; e8f30
+HiHat1:
+	noise_note 32, 8, 1, 16
+	sound_ret
 
-Snare5: ; e8f30
-	noise C#,  1, $82, $23
-	endchannel
-; e8f34
+Snare5:
+	noise_note 32, 8, 2, 35
+	sound_ret
 
-Snare6: ; e8f34
-	noise C#,  1, $82, $25
-	endchannel
-; e8f38
+Snare6:
+	noise_note 32, 8, 2, 37
+	sound_ret
 
-Snare7: ; e8f38
-	noise C#,  1, $82, $26
-	endchannel
-; e8f3c
+Snare7:
+	noise_note 32, 8, 2, 38
+	sound_ret
 
-HiHat2: ; e8f3c
-	noise C#,  1, $a1, $10
-	endchannel
-; e8f40
+HiHat2:
+	noise_note 32, 10, 1, 16
+	sound_ret
 
-HiHat3: ; e8f40
-	noise C#,  1, $a2, $11
-	endchannel
-; e8f44
+HiHat3:
+	noise_note 32, 10, 2, 17
+	sound_ret
 
-Snare8: ; e8f44
-	noise C#,  1, $a2, $50
-	endchannel
-; e8f48
+Snare8:
+	noise_note 32, 10, 2, 80
+	sound_ret
 
-Triangle3: ; e8f48
-	noise C#,  1, $a1, $18
-	noise C#,  1, $31, $33
-	endchannel
-; e8f4f
+Triangle3:
+	noise_note 32, 10, 1, 24
+	noise_note 32, 3, 1, 51
+	sound_ret
 
-Triangle4: ; e8f4f
-	noise C#,  3, $91, $28
-	noise C#,  1, $71, $18
-	endchannel
-; e8f56
+Triangle4:
+	noise_note 34, 9, 1, 40
+	noise_note 32, 7, 1, 24
+	sound_ret
 
-Snare9: ; e8f56
-	noise C#,  1, $91, $22
-	endchannel
-; e8f5a
+Snare9:
+	noise_note 32, 9, 1, 34
+	sound_ret
 
-Snare10: ; e8f5a
-	noise C#,  1, $71, $22
-	endchannel
-; e8f5e
+Snare10:
+	noise_note 32, 7, 1, 34
+	sound_ret
 
-Snare11: ; e8f5e
-	noise C#,  1, $61, $22
-	endchannel
-; e8f62
+Snare11:
+	noise_note 32, 6, 1, 34
+	sound_ret
 
-Drum20: ; e8f62
-	noise C#,  1, $11, $11
-	endchannel
-; e8f66
+Drum20:
+	noise_note 32, 1, 1, 17
+	sound_ret
 
-Drum21: ; e8f66
-	endchannel
-; e8f67
+Drum21:
+	sound_ret
 
-Snare12: ; e8f67
-	noise C#,  1, $91, $33
-	endchannel
-; e8f6b
+Snare12:
+	noise_note 32, 9, 1, 51
+	sound_ret
 
-Snare13: ; e8f6b
-	noise C#,  1, $51, $32
-	endchannel
-; e8f6f
+Snare13:
+	noise_note 32, 5, 1, 50
+	sound_ret
 
-Snare14: ; e8f6f
-	noise C#,  1, $81, $31
-	endchannel
-; e8f73
+Snare14:
+	noise_note 32, 8, 1, 49
+	sound_ret
 
-Kick1: ; e8f73
-	noise C#,  1, $88, $6b
-	noise C#,  1, $71, $00
-	endchannel
-; e8f7a
+Kick1:
+	noise_note 32, 8, 8, 107
+	noise_note 32, 7, 1, 0
+	sound_ret
 
-Triangle5: ; e8f7a
-	noise D_,  1, $91, $18
-	endchannel
-; e8f7e
+Triangle5:
+	noise_note 48, 9, 1, 24
+	sound_ret
 
-Drum27: ; e8f7e
-	noise C#,  8, $92, $10
-	endchannel
-; e8f82
+Drum27:
+	noise_note 39, 9, 2, 16
+	sound_ret
 
-Drum28: ; e8f82
-	noise D_,  4, $91, $00
-	noise D_,  4, $11, $00
-	endchannel
-; e8f89
+Drum28:
+	noise_note 51, 9, 1, 0
+	noise_note 51, 1, 1, 0
+	sound_ret
 
-Drum29: ; e8f89
-	noise D_,  4, $91, $11
-	noise D_,  4, $11, $00
-	endchannel
-; e8f90
+Drum29:
+	noise_note 51, 9, 1, 17
+	noise_note 51, 1, 1, 0
+	sound_ret
 
-Crash1: ; e8f90
-	noise D_,  4, $88, $15
-	noise C#,  1, $65, $12
-	endchannel
-; e8f97
+Crash1:
+	noise_note 51, 8, 8, 21
+	noise_note 32, 6, 5, 18
+	sound_ret
 
-Drum31: ; e8f97
-	noise D_,  4, $51, $21
-	noise D_,  4, $11, $11
-	endchannel
-; e8f9e
+Drum31:
+	noise_note 51, 5, 1, 33
+	noise_note 51, 1, 1, 17
+	sound_ret
 
-Drum32: ; e8f9e
-	noise D_,  4, $51, $50
-	noise D_,  4, $11, $11
-	endchannel
-; e8fa5
+Drum32:
+	noise_note 51, 5, 1, 80
+	noise_note 51, 1, 1, 17
+	sound_ret
 
-Drum33: ; e8fa5
-	noise C#,  1, $a1, $31
-	endchannel
-; e8fa9
+Drum33:
+	noise_note 32, 10, 1, 49
+	sound_ret
 
-Crash2: ; e8fa9
-	noise C#,  1, $84, $12
-	endchannel
-; e8fad
+Crash2:
+	noise_note 32, 8, 4, 18
+	sound_ret
 
-Drum35: ; e8fad
-	noise D_,  4, $81, $00
-	noise D_,  4, $11, $00
-	endchannel
-; e8fb4
+Drum35:
+	noise_note 51, 8, 1, 0
+	noise_note 51, 1, 1, 0
+	sound_ret
 
-Drum36: ; e8fb4
-	noise D_,  4, $81, $21
-	noise D_,  4, $11, $11
-	endchannel
-; e8fbb
+Drum36:
+	noise_note 51, 8, 1, 33
+	noise_note 51, 1, 1, 17
+	sound_ret
 
-Kick2: ; e8fbb
-	noise C#,  1, $a8, $6b
-	noise C#,  1, $71, $00
-	endchannel
-; e8fc2
+Kick2:
+	noise_note 32, 10, 8, 107
+	noise_note 32, 7, 1, 0
+	sound_ret

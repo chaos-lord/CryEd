@@ -2,8 +2,9 @@
 ; CryEd - cry editor for Pokémon Crystal
 ; ======================================
 
-; Defines
-include "Defines.asm"
+INCLUDE "macros.asm"
+INCLUDE "constants.asm"
+INCLUDE "wram.asm"
 
 ; =============
 ; Reset vectors
@@ -47,7 +48,7 @@ IRQ_Timer::     jp  DoTimer
 section "Serial IRQ",rom0[$58]
 IRQ_Serial::    reti            ; not used
 
-section "Joypad IRQ",rom0[$60]
+;section "Joypad IRQ",rom0[$60]
 IRQ_Joypad::    reti            ; not used
 
 ; ===============
@@ -172,7 +173,7 @@ InitCryEditor::
     ld      [sys_MenuMax],a
     xor     a
     ld      [sys_MenuPos],a
-    call    MapSetup_Sound_Off
+    call    InitSound
     ; load font + graphics
     CopyTileset1BPP Font,0,98
     ld      hl,CryEditorTilemap
@@ -195,22 +196,22 @@ InitCryEditor::
     
 CryEditorLoop::
     ld      a,[sys_btnPress]
-    bit     btnA,a
+    bit     A_BUTTON_F,a
     jr      nz,.playCry
-    bit     btnStart,a
+    bit     START_F,a
     jr      nz,.playCry
-    bit     btnB,a
+    bit     B_BUTTON_F,a
     jr      nz,.resetCry
-    bit     btnSelect,a
+    bit     SELECT_F,a
     jp      nz,InitOptionsMenu
     ld      hl,sys_MenuPos
-    bit     btnUp,a
+    bit     D_UP_F,a
     jr      nz,.editUp
-    bit     btnDown,a
+    bit     D_DOWN_F,a
     jr      nz,.editDown
-    bit     btnRight,a
+    bit     D_RIGHT_F,a
     jr      nz,.cursorNext
-    bit     btnLeft,a
+    bit     D_LEFT_F,a
     jr      nz,.cursorPrev
     jr      .continue
 .resetCry
@@ -451,7 +452,7 @@ InitOptionsMenu::
     ld      [sys_MenuMax],a
     xor     a
     ld      [sys_MenuPos],a
-    call    MapSetup_Sound_Off
+    call    InitSound
     ; load font + graphics
     CopyTileset1BPP Font,0,98
     ld      hl,OptionsMenuTilemap
@@ -480,17 +481,17 @@ InitOptionsMenu::
     
 OptionsMenuLoop::
     ld      a,[sys_btnPress]
-    bit     btnA,a
+    bit     A_BUTTON_F,a
     jr      nz,.selectItem
-    bit     btnB,a
+    bit     B_BUTTON_F,a
     jp      nz,InitCryEditor
-    bit     btnStart,a
+    bit     START_F,a
     jr      nz,.selectItem
-    bit     btnSelect,a
+    bit     SELECT_F,a
     jr      nz,.nextItem
-    bit     btnUp,a
+    bit     D_UP_F,a
     jr      nz,.prevItem
-    bit     btnDown,a
+    bit     D_DOWN_F,a
     jr      z,.continue
 .nextItem
     ld      a," "-$20
@@ -646,7 +647,7 @@ InitLoadSaveScreen:
     ld      [sys_MenuPos],a
     ld      a,[SelectedSaveSlot]
     ld      [sys_MenuMax],a         ; sys_MenuMax is repurposed as currently selected save slot
-    call    MapSetup_Sound_Off
+    call    InitSound
     ; load font + graphics
     CopyTileset1BPP Font,0,98
     CopyTileset1BPPInvert   Font,$800,98
@@ -681,19 +682,19 @@ LoadSaveScreenLoop:
     
     ld      hl,sys_MenuMax
     ld      a,[sys_btnPress]
-    bit     btnA,a
+    bit     A_BUTTON_F,a
     jp      nz,.selectSlot
-    bit     btnB,a
+    bit     B_BUTTON_F,a
     jr      nz,.exit
-    bit     btnSelect,a
+    bit     SELECT_F,a
     jr      nz,.previewCry
-    bit     btnUp,a
+    bit     D_UP_F,a
     jr      nz,.add16
-    bit     btnDown,a
+    bit     D_DOWN_F,a
     jr      nz,.sub16
-    bit     btnRight,a
+    bit     D_RIGHT_F,a
     jr      nz,.add1
-    bit     btnLeft,a
+    bit     D_LEFT_F,a
     jr      nz,.sub1
 .continue
     ld      a,[sys_MenuMax]
@@ -729,7 +730,7 @@ LoadSaveScreenLoop:
     call    CryEd_PreviewCry
     jr  .continue
 .previewfail
-    call    MapSetup_Sound_Off
+    call    InitSound
     ld      de,$19  ; SFX_WRONG
     call    PlaySFX
     ld      hl,msg_previewfail
@@ -752,7 +753,7 @@ LoadSaveScreenLoop:
     ld      [hl],a
     jr      .continue
 .exit
-    call    MapSetup_Sound_Off
+    call    InitSound
     ld      de,$e
     call    PlaySFX
 .waitSFX
@@ -763,7 +764,7 @@ LoadSaveScreenLoop:
     
     jp      InitCryEditor
 .selectSlot
-    call    MapSetup_Sound_Off
+    call    InitSound
     ld      de,$7
     call    PlaySFX
     
@@ -806,7 +807,7 @@ LoadSaveScreenLoop:
     xor     a
     ld      [rRAMG],a
     
-    call    MapSetup_Sound_Off
+    call    InitSound
     ld      de,$22
     call    PlaySFX
     ld      hl,msg_loaded
@@ -815,13 +816,13 @@ LoadSaveScreenLoop:
 .crydoesntexist
     xor     a
     ld      [rRAMG],a
-    call    MapSetup_Sound_Off
+    call    InitSound
     ld      de,$19  ; SFX_WRONG
     call    PlaySFX
     ld      hl,msg_slotempty
     jr      .doprintmessage
 .loadfail
-    call    MapSetup_Sound_Off
+    call    InitSound
     ld      de,$19  ; SFX_WRONG
     call    PlaySFX
     ld      hl,msg_loadfail
@@ -829,7 +830,7 @@ LoadSaveScreenLoop:
 .savefail
     xor     a
     ld      [rRAMG],a
-    call    MapSetup_Sound_Off
+    call    InitSound
     ld      de,$19  ; SFX_WRONG
     call    PlaySFX
     ld      hl,msg_savefail
@@ -885,7 +886,7 @@ LoadSaveScreenLoop:
     ld      hl,prompt_yesno
     call    LoadSaveScreen_PrintLine
     
-    call    MapSetup_Sound_Off
+    call    InitSound
     ld      de,$7
     call    PlaySFX
     call    LoadSaveScreen_WaitForPrompt
@@ -910,7 +911,7 @@ LoadSaveScreenLoop:
     jr      nz,.saveloop
     xor     a
     ld      [rRAMG],a
-    call    MapSetup_Sound_Off
+    call    InitSound
     ld      de,$22
     call    PlaySFX
     ld      hl,msg_saved
@@ -986,13 +987,13 @@ LoadSaveScreen_WaitForPrompt:
     halt
 .loop
     ld      a,[sys_btnPress]
-    bit     btnLeft,a
+    bit     D_LEFT_F,a
     jr      nz,.toggle
-    bit     btnRight,a
+    bit     D_RIGHT_F,a
     jr      nz,.toggle
-    bit     btnA,a
+    bit     A_BUTTON_F,a
     jr      nz,.select
-    bit     btnB,a
+    bit     B_BUTTON_F,a
     jr      nz,.cancel  
 .continue
     ld      a,[sys_MenuPos]
@@ -1092,14 +1093,14 @@ LoadSaveScreen_PrintLine:
 ; =============
 
 CryEd_PreviewCry:
-    ld      a,[sys_CurrentROMBank]
+    ld      a,[hROMBank]
     push    af
     ld      a,BANK(_PlayCry)
-    ld      [sys_CurrentROMBank],a
+    ld      [hROMBank],a
     ld      [rROMB0],a
     call    _PlayCry
     pop     af
-    ld      [sys_CurrentROMBank],a
+    ld      [hROMBank],a
     ld      [rROMB0],a
     ret
 
@@ -1170,7 +1171,7 @@ DoVBlank::
     call    CheckInput              ; get button input for current frame
     ; A+B+Start+Select restart sequence
     ld      a,[sys_btnHold]
-    cp      _A+_B+_Start+_Select    ; is A+B+Start+Select pressed
+    cp      A_BUTTON+B_BUTTON+START+SELECT    ; is A+B+Start+Select pressed
     jr      nz,.noreset             ; if not, skip
     ld      a,[sys_ResetTimer]      ; get reset timer
     inc     a
@@ -1351,7 +1352,7 @@ InitCryImporter::
     rst     $10
     xor     a
     ldh     [rLCDC],a
-    call    MapSetup_Sound_Off
+    call    InitSound
     ; load font + graphics
     CopyTileset1BPP Font,0,98
     ld      hl,CryImporterTilemap
@@ -1374,22 +1375,22 @@ InitCryImporter::
 
 CryImporterLoop::
     ld      a,[sys_btnPress]
-    bit     btnA,a
+    bit     A_BUTTON_F,a
     jr      nz,.importCry
-    bit     btnB,a
+    bit     B_BUTTON_F,a
     jp      nz,InitCryEditor
-    bit     btnStart,a
+    bit     START_F,a
     jr      nz,.importCry
-    bit     btnSelect,a
+    bit     SELECT_F,a
     jp      nz,.previewCry
     ld      hl,sys_MenuPos
-    bit     btnUp,a
+    bit     D_UP_F,a
     jr      nz,.add16
-    bit     btnDown,a
+    bit     D_DOWN_F,a
     jr      nz,.sub16
-    bit     btnRight,a
+    bit     D_RIGHT_F,a
     jr      nz,.add1
-    bit     btnLeft,a
+    bit     D_LEFT_F,a
     jr      nz,.sub1
     jp      .continue
 .add16
@@ -1453,10 +1454,10 @@ CryImporterLoop::
     call    IsSFXPlaying
     jr      nc,.cryloop
     ; bankchange to PokemonCries
-	ld a, [sys_CurrentROMBank]
+	ld a, [hROMBank]
 	push af
 	ld a, BANK(PokemonCries)
-	ld [sys_CurrentROMBank], a
+	ld [hROMBank], a
 	ld [rROMB0], a
     ld      hl,PokemonCries
     add     hl,de
@@ -1478,7 +1479,7 @@ CryImporterLoop::
     ld      [CryEdit_CryLength+1],a
     ;bankchange back
 	pop af
-	ld [sys_CurrentROMBank], a
+	ld [hROMBank], a
 	ld [rROMB0], a
     jp      InitCryEditor
 .nocry
@@ -2301,7 +2302,7 @@ PokemonNames::
     db      "VIVILLON    "
     db      "LITLEO      "
     db      "PYROAR      "
-    db      "FLABÉBÉ     "
+    db      "FLABEBE     "
     db      "FLOETTE     "
     db      "FLORGES     "
     db      "SKIDDO      "
