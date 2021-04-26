@@ -22,15 +22,25 @@ Once you are done you can add the cry to the library and then the library to you
 
 # How to make a cry based on an existing cry:
 
-Go to crydata.asm and replace the appropriate placeholder cry with the correct base sound, pitch and legnth in that order.
+- Go to crydata.asm and replace the appropriate placeholder cry with the correct base sound, pitch and legnth in that order.
 
 # How to add a new base cry:
 
-Add the sound itself to audio/cries.asm. TODO: Add a guide to making base cries
-Add a pointer to the new base cry to audio/cry_pointers in the same way as those that exist
-Add a new constant to cry_constants.asm in the same way as those that exist
+- First create the sound commands, I reccomend using [this editor](http://dotsarecool.com/rgme/tech/gen1cries.html) to make the cries, it includes instuctions on how the cry engine works and what each command does in [this video](https://www.youtube.com/watch?v=gDLpbFXnpeY). 
+- Convert the sound commands to the modern format, as described below
+- Add the sound itself to audio/cries.asm, remembering to also create a header.
+- Add a pointer to the new base cry's header to audio/cry_pointers in the same way as those that exist
+- Add a new constant to cry_constants.asm in the same way as those that exist
 
-When you add something, Please add it to credits.txt, and when you use these crys please credit thier creators in your hack.
+When you add something, Please add your contribution to credits.txt, and when you use these crys please credit thier creators in your hack.
+
+# How to convert the dotsarecool cry format into a modern gen 1 or gen 2 cry:
+
+- duty = sound_duty /1 /2 /3 /4, where /1 is the high crumb (2 bits), 2 is the next highest crumb and so on. Dutycycle is functionally equivelent to inputting the same argument into sound_duty 4 times
+
+- note = square_note if in the sound channels, noise_note if in the noise channel. The arguments can be copied in 1 for 1, except that the first argument should be reduced by 1. 
+
+- The dotsarecool editor does not support loop and end. Always add sound_ret to the end of each channel (which replaces end), and if you want to loop use sound_loop, which replaces loop.
 
 # Adding a cry to the library:
 
@@ -52,13 +62,13 @@ Once ratings have been sorted out, when a cry is added it will be rated from 1 t
 
 Fakemon submissions are permitted to the library, so long as the fakemon exists in at least 1 finished or otherwise prominant hack (it need not be gen 2), but they are stored seperatly in fakemoncrydata.asm to retain the ability for the basic crydata to be drag and dropped into an all vanilla mons hack.
 
-# How to port the cry list to your crystal16 based project:
+# How to port the cry list to your crystal16 based project (NOTE: crystal16 needs an update to accept modern cry macros before it is fully supported):
 
-Replace audio/cries.asm in your crystal repo with the audio/cries.asm in this repo
-Replace audio/cry_pointers in your crystal repo with the audio/cry_pointers in this repo
-Replace data/pokemon/cries in your crystal repo with the crydata.asm in this repo
-Replace constants/cry_constants.asm in your crystal repo with the cry_constants.asm in this repo
-Check the credits of the crys you have used and add them to your romhacks credits.
+- Replace audio/cries.asm in your crystal repo with the audio/cries.asm in this repo
+- Replace audio/cry_pointers in your crystal repo with the audio/cry_pointers in this repo
+- Replace data/pokemon/cries in your crystal repo with the crydata.asm in this repo
+- Replace constants/cry_constants.asm in your crystal repo with the cry_constants.asm in this repo
+- Check the credits of the crys you have used and add them to your romhacks credits.
 
 # How to build CryEd:
 
