@@ -2289,16 +2289,16 @@ Cry_Goomy_Ch6:
 	square_note 1,  0, 0, 1
 	square_note 3,  7, 4, 1300
 	sound_ret
-
+	
 Cry_Goomy_Ch8:
 	noise_note 2,  0, 1, $00
 Cry_Goomy_Ch8_branch:
-	noise_note 4,  1, 3, $5c
+	noise_note 4,  2, 3, $66
 	noise_note 6,  0, 0, $00
 	sound_loop 3, Cry_Goomy_Ch8_branch
-	noise_note 10,  4, 7, $6c
-	noise_note 10,  4, 7, $9c
-	noise_note 10,  3, 7, $6c
+	noise_note 10,  4, 7, $21
+	noise_note 10,  4, 7, $46
+	noise_note 10,  3, 7, $21
 	sound_ret
 	
 
