@@ -427,7 +427,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHERUBI PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; CHERIM PLACEHOLDER
 	mon_cry CRY_WEEDLE,      $0ff,  $0aa ; SHELLOS walshyb
-	mon_cry CRY_GASTRODON,   $830,  $050 ; GASTRODON Gastrodon
+	mon_cry CRY_GASTRODON,   $830,  $050 ; GASTRODON myRattata
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; AMBIPOM PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRIFLOON PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; DRIFBLIM PLACEHOLDER
@@ -708,7 +708,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; HAWLUCHA PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; DEDENNE PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; CARBINK PLACEHOLDER
-	mon_cry CRY_GOOMY,       $0b4,  $0ea ; GOOMY Gastrodon
+	mon_cry CRY_GOOMY,       $0b4,  $0ea ; GOOMY myRattata
 	mon_cry CRY_CHATOT,     -$01a,  $2e6 ; SLIGGOO Ax6
 	mon_cry CRY_VULPIX,     -$107,  $0ca ; GOODRA Ax6
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; KLEFKI PLACEHOLDER
