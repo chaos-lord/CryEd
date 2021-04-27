@@ -11,11 +11,12 @@ sys_btnHold:			ds	1
 sys_VBlankFlag:			ds	1
 sys_TimerFlag:			ds	1
 sys_LCDCFlag:			ds	1
-sys_MenuPos:			ds	2
+sys_MenuPos:			ds	1
 sys_MenuMax:			ds	1
 sys_VBlankID:			ds	1
 sys_StatID:				ds	1
 sys_TimerID:			ds	1
+sys_ImportPos:			ds	2
 
 CryEdit_CryBase:		ds	1
 CryEdit_CryPitch:		ds	2

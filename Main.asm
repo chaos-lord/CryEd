@@ -1383,7 +1383,7 @@ CryImporterLoop::
     jr      nz,.importCry
     bit     SELECT_F,a
     jp      nz,.previewCry
-    ld      hl,sys_MenuPos
+    ld      hl,sys_ImportPos
     bit     D_UP_F,a
     jr      nz,.add16
     bit     D_DOWN_F,a
@@ -1436,16 +1436,16 @@ CryImporterLoop::
     ld      [hl],e
     jr      .continue
 .previewCry
-    ld      a,[sys_MenuPos]
+    ld      a,[sys_ImportPos]
     ld      d,a
-    ld      a,[sys_MenuPos + 1]
+    ld      a,[sys_ImportPos + 1]
     ld      e,a
     call    PlayCry
     jr  .continue
 .importCry
-    ld      a,[sys_MenuPos]
+    ld      a,[sys_ImportPos]
     ld      d,a
-    ld      a,[sys_MenuPos + 1]
+    ld      a,[sys_ImportPos + 1]
     ld      e,a
     call    PlayCry
 .cryloop
@@ -1486,15 +1486,15 @@ CryImporterLoop::
     ld      de,$19  ; SFX_WRONG
     call    PlaySFX
 .continue
-    ld      a,[sys_MenuPos]
+    ld      a,[sys_ImportPos]
     ld      hl,$986F
     call    DrawHex
-    ld      a,[sys_MenuPos+1]
+    ld      a,[sys_ImportPos+1]
     ld      hl,$9871
     call    DrawHex
-    ld      a,[sys_MenuPos]
+    ld      a,[sys_ImportPos]
     ld      h,a
-    ld      a,[sys_MenuPos+1]
+    ld      a,[sys_ImportPos+1]
     ld      l,a
     ld      bc,$9881
     call    PrintMonName
@@ -1716,7 +1716,7 @@ PokemonNames::
     db      "SLOWBRO     "
     db      "MAGNEMITE   "
     db      "MAGNETON    "
-    db      "FARFETCH’D  "
+    db      "FARFETCHD   "
     db      "DODUO       "
     db      "DODRIO      "
     db      "SEEL        "
