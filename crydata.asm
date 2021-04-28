@@ -380,7 +380,7 @@ PokemonCries::
 	mon_cry CRY_RAICHU,      $f1f,  $130 ; SALAMENCE SourApple
 	mon_cry CRY_CYNDAQUIL,   $40c,  $140 ; BELDUM SourApple
 	mon_cry CRY_SLOWKING,    $6af,  $17a ; METANG SourApple
-	mon_cry CRY_GOLEM,       $1A0,  $10A ; METAGROSS SourApple
+	mon_cry CRY_METAPOD,     $def,  $25a ; METAGROSS SourApple
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; REGIROCK PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; REGICE PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; REGISTEEL PLACEHOLDER
