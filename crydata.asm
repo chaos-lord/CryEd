@@ -397,7 +397,7 @@ PokemonCries::
 	mon_cry CRY_CLEFAIRY,    $06a,  $200 ; CHIMCHAR SourApple
 	mon_cry CRY_PIDGEOTTO,   $fef,  $200 ; MONFERNO SourApple
 	mon_cry CRY_PIDGEOTTO,   $ef6,  $300 ; INFERNAPE SourApple
-	mon_cry CRY_PSYDUCK,     $240,  $0f0 ; PIPLUP walshyb
+	mon_cry CRY_PSYDUCK,     $250,  $0a0 ; PIPLUP walshyb edited by chaos_lord2
 	mon_cry CRY_RAICHU,     -$006,  $0b0 ; PRINPLUP Ax6
 	mon_cry CRY_BLASTOISE,   $093,  $15a ; EMPOLEON Ax6
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; STARLY PLACEHOLDER
