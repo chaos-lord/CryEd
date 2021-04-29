@@ -416,7 +416,7 @@ PokemonCries::
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; RAMPADOS PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; SHIELDON PLACEHOLDER
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; BASTIODON PLACEHOLDER
-	mon_cry CRY_CHATOT,      $03c,  $128 ; BURMY Ax6
+	mon_cry CRY_CHATOT,      $f0c,  $0d8 ; BURMY Ax6 edited by chaod_lord2
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; WORMADAM PLACEHOLDER
 	mon_cry CRY_NIDOQUEEN,  -$05c,  $0d8 ; MOTHIM Ax6
 	mon_cry CRY_PIDGEY,      $0df,  $084 ; COMBEE PLACEHOLDER
