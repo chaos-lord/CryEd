@@ -83,4 +83,4 @@
 	const CRY_GOOMY          ; 4a
 	const CRY_HELIOLISK      ; 4b
 	
-NUM_CRIES EQU const_value
+DEF NUM_CRIES EQU const_value
