@@ -2,8 +2,7 @@
 ; CryEd - cry editor for Pokémon Crystal
 ; ======================================
 
-INCLUDE "macros.asm"
-INCLUDE "constants.asm"
+INCLUDE "includes.asm"
 INCLUDE "wram.asm"
 
 ; =============
