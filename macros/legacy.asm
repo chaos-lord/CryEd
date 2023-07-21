@@ -3,7 +3,7 @@
 ; Legacy support not in this file can be found by looking for the keyword: "LEGACY"
 
 ; Define ROM title.
-romTitle:	MACRO
+MACRO romTitle
 .str\@
 	db		\1
 .str\@_end
