@@ -134,6 +134,6 @@ wMapMusic:: db
 wDontPlayMapMusicOnReload:: db
 wOptions::	db
 
-section	"Hram", HRAM[$FF80]
+SECTION	"Hram", HRAM[$FF80]
 
 INCLUDE "hram.asm"
