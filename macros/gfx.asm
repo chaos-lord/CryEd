@@ -37,7 +37,7 @@ MACRO SetDMGPal
 ENDM
 	
 ; Wait for VRAM accessibility.
-MACRO WaitForVRAM:
+MACRO WaitForVRAM
 	ldh		a, [rSTAT]
 	and		2
 	jr		nz, @-4
