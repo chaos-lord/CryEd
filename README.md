@@ -2,7 +2,7 @@
 
 This repo is intended to both act as a library from which gen 1 or 2 hacks can take from freely (with credit). To assist with this the repo also contains CryEd, a piece of homebrew made by DevEd that allows various cry settings to be easilly edited and tested in real time. In turn if new base cries were created they could easilly be added to CryEd to be used as a base for other cries.
 
-All cries here are free to include in your own hack so long as thier creators are credited, and we encourage you to add any new cries or improvments you make to the library in turn.
+All cries here are free to include in your own hack so long as thier creators are credited, and we encourage you to add any new cries or improvements you make to the library in turn.
 
 # The anatomy of a cry:
 
@@ -26,13 +26,13 @@ Once you are done you can add the cry to the library and then the library to you
 
 # How to add a new base cry:
 
-- First create the sound commands, I reccomend using [this editor](http://dotsarecool.com/rgme/tech/gen1cries.html) to make the cries, it includes instuctions on how the cry engine works and what each command does in [this video](https://www.youtube.com/watch?v=gDLpbFXnpeY). 
+- First create the sound commands, I reccomend using [this editor](https://ardean.github.io/pokemon-gen1-cry-synthesizer/) to make the cries, it includes instuctions on how the cry engine works and what each command does in [this video](https://www.youtube.com/watch?v=gDLpbFXnpeY). 
 - Convert the sound commands to the modern format, as described below
 - Add the sound itself to audio/cries.asm, remembering to also create a header.
 - Add a pointer to the new base cry's header to audio/cry_pointers in the same way as those that exist
 - Add a new constant to cry_constants.asm in the same way as those that exist
 
-When you add something, Please add your contribution to credits.txt, and when you use these crys please credit thier creators in your hack.
+When you add something, Please add your contribution to credits.txt, and when you use these criess please credit thier creators in your hack.
 
 # How to convert the dotsarecool cry format into a modern gen 1 or gen 2 cry:
 
@@ -44,7 +44,7 @@ When you add something, Please add your contribution to credits.txt, and when yo
 
 # Adding a cry to the library:
 
-When you have added your new cry, it would be very nice if you submitted it to the library. To do this create a fork of the library, commit your new cry(s) to the fork, then submit a pull request containing your changes to the library master for approval. Improvments are submitted in the exact same way. 
+When you have added your new cry, it would be very nice if you submitted it to the library. To do this create a fork of the library, commit your new cry(s) to the fork, then submit a pull request containing your changes to the library master for approval. Improvements are submitted in the exact same way. 
 
 Once ratings have been sorted out, when a cry is added it will be rated from 1 to 5 stars (*'s) representing the percieved quality at emulating the real cry. The rating scale is below.
 
@@ -68,7 +68,7 @@ Fakemon submissions are permitted to the library, so long as the fakemon exists 
 - Replace audio/cry_pointers in your crystal repo with the audio/cry_pointers in this repo
 - Replace data/pokemon/cries in your crystal repo with the crydata.asm in this repo
 - Replace constants/cry_constants.asm in your crystal repo with the cry_constants.asm in this repo
-- Check the credits of the crys you have used and add them to your romhacks credits.
+- Check the credits of the criess you have used and add them to your romhacks credits.
 
 # How to build CryEd:
 
